@@ -1,38 +1,56 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Home | andrewjlim.com</title>
+		<link rel="stylesheet" href="furniture/css/bootstrap.min.css" />
 	</head>
 	<body>
-		<header>
-			<nav>
-				<div id="logo">AJL</div>
-				<div id="pages">
-					<ul>
-						<li>About</li>
-						<li>Favourites</li>
-						<li>Notes</li>
-						<li>Experiments</li>
-					</ul>
-				</div>
-			</nav>
-		</header>
-		<section>
-			<article>
-				<h2>About</h2>
-				<div>About text</div>
-			</article>
-			<article>
-				<h2>Favourites</h2>
-				<div>Favourites text</div>
-			</article>
-			<article>
-				<h2>Notes</h2>
-				<div>Notes text</div>
-			</article>
-			<article>
-				<h2>Experiments</h2>
-				<div>Experiments text</div>
-			</article>
-		</section>
+		<div id="page">
+			<header class="container">
+				<nav class="navbar navbar-default">
+					<div id="logo">AJL</div>
+					<div id="pages">
+						<ul>
+							<li><a href=".">About</a></li>
+							<li><a href=".">Favourites</a></li>
+							<li><a href=".">Notes</a></li>
+							<li><a href=".">Experiments</a></li>
+						</ul>
+					</div>
+				</nav>
+			</header>
+		
+			<main class="container">
+				<section>
+					<article class="row">
+						<h2>About</h2>
+						<div class="section-image col-md-4"><img src="furniture/images/placeholder-1000x400.png" alt="Placeholder Image" class="img-thumbnail" /></div>
+						<div class="section-text col-md-8">About text</div>
+					</article>
+					<article class="row">
+						<h2>Favourites</h2>
+						<div class="section-image col-md-4"><img src="furniture/images/placeholder-1000x400.png" alt="Placeholder Image" class="img-thumbnail" /></div>
+						<div class="section-text col-md-8">Favourites text</div>
+					</article>
+					<article class="row">
+						<h2>Notes</h2>
+						<div class="section-image col-md-4"><img src="furniture/images/placeholder-1000x400.png" alt="Placeholder Image" class="img-thumbnail" /></div>
+						<div class="section-text col-md-8">Notes text</div>
+					</article>
+					<article class="row">
+						<h2>Experiments</h2>
+						<div class="section-image col-md-4"><img src="furniture/images/placeholder-1000x400.png" alt="Placeholder Image" class="img-thumbnail" /></div>
+						<div class="section-text col-md-8">Experiments text</div>
+					</article>
+				</section>
+			</main>
+			<footer class="container">
+			<p>Footer section</p>
+			</footer>
+		</div>
+		<script type="text/javascript" src="furniture/js/jquery-3.2.1.js"></script>
+		<script type="text/javascript" src="furniture/js/bootstrap.min.js"></script>
 	</body>
 </html>
