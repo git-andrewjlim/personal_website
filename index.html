@@ -1,62 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Home | andrewjlim.com</title>
-		<link rel="stylesheet" href="furniture/css/bootstrap.min.css" />
+		<title>Andrew J LIm Personal Website</title>
+		<link rel="stylesheet" href="furniture/css/main.css">
+		<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+		<script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+		<script src="furniture/js/main.js"></script>
+		<script defer src="furniture/js/solid.js"></script>
+  		<script defer src="furniture/js/fontawesome.js"></script>
+  		<style type="text/css">
+			h1 {display: none;}
+  		</style>
 	</head>
+
 	<body>
-		<div id="page">
-			<header class="container">
-				<nav class="navbar navbar-default">
-					<div id="logo"><a href="index.html">AJL</a></div>
-					<div id="pages">
-						<ul>
-							<li><a href=".">About</a></li>
-							<li><a href=".">Favourites</a></li>
-							<li><a href=".">Notes</a></li>
-							<li><a href="projects.html">projects</a></li>
-							<li><a href=".">Experiments</a></li>
-						</ul>
-					</div>
-				</nav>
-			</header>
 		
-			<main class="container">
-				<section>
-					<article class="row">
-						<h2>About</h2>
-						<div class="section-image col-md-4"><img src="furniture/images/placeholder-1000x400.png" alt="Placeholder Image" class="img-thumbnail" /></div>
-						<div class="section-text col-md-8">About text</div>
-					</article>
-					<article class="row">
-						<h2>Favourites</h2>
-						<div class="section-image col-md-4"><img src="furniture/images/placeholder-1000x400.png" alt="Placeholder Image" class="img-thumbnail" /></div>
-						<div class="section-text col-md-8">Favourites text</div>
-					</article>
-					<article class="row">
-						<h2>Notes</h2>
-						<div class="section-image col-md-4"><img src="furniture/images/placeholder-1000x400.png" alt="Placeholder Image" class="img-thumbnail" /></div>
-						<div class="section-text col-md-8">Notes text</div>
-					</article>
-					<article class="row">
-						<h2>Projects</h2>
-						<div class="section-image col-md-4"><img src="furniture/images/placeholder-1000x400.png" alt="Placeholder Image" class="img-thumbnail" /></div>
-						<div class="section-text col-md-8">Projects text</div>
-					</article>
-					<article class="row">
-						<h2>Experiments</h2>
-						<div class="section-image col-md-4"><img src="furniture/images/placeholder-1000x400.png" alt="Placeholder Image" class="img-thumbnail" /></div>
-						<div class="section-text col-md-8">Experiments text</div>
-					</article>
-				</section>
-			</main>
-			<footer class="container">
-			<p>Footer section</p>
-			</footer>
+		<header>
+			<a href="index.html"><img class="logo" src="furniture/img/logo.png" alt="Andrew J Lim Personal Website"></a>	
+			<nav></nav>
+		</header>
+		<div class="wrap">
+			<h1>TITLE</h1>
+			<section id="menu-items">
+				<article>				
+					<div class="icon icon-about"><i class="fa fa-user-circle"></i></div>
+					<h2><a href="aboutme.html">About Me</a></h2>
+					<div class="menu-text">
+						<p>Information about myself</p>
+					</div>
+				</article>
+				<article>				
+					<div class="icon icon-fav"><i class="fa fa-star-exclamation"></i></div>
+					<h2><a href="favourites.html">Favourites</a></h2>
+					<div class="menu-text">
+						<p>Things that inspire, educate or make me happy</p>
+					</div>
+				</article>
+				<article>				
+					<div class="icon icon-notes"><i class="fa fa-pen-alt"></i></div>
+					<h2><a href="notes.html">Notes</a></h2>
+					<div class="menu-text">
+						<p>Thougths about various things</p>
+					</div>	
+				</article>
+				<article>				
+					<div class="icon icon-lab"><i class="fa fa-cog"></i></div>
+					<h2><a href="resources.html">Resources</a></h2>
+					<div class="menu-text">
+						<p>Tools and sites that I use</p>
+					</div>
+				</article>
+				<article>				
+					<div class="icon icon-lab"><i class="fa fa-suitcase"></i></div>
+					<h2><a href="projects.html">Projects</a></h2>
+					<div class="menu-text">
+						<p>Projects I've built.</p>
+						<p><b>Note:</b> Some of these require desktop to view</p>
+					</div>
+				</article>
+				<article>				
+					<div class="icon icon-lab"><i class="fa fa-flask"></i></div>
+					<h2><a href="laboratory.html">Laboratory</a></h2>
+					<div class="menu-text">
+						<p>Experimental area for development.</p>
+						<p><b>Note:</b> Some of these require desktop to view</p>
+					</div>
+				</article>
+			</section>
 		</div>
-		<script type="text/javascript" src="furniture/js/jquery-3.2.1.js"></script>
-		<script type="text/javascript" src="furniture/js/bootstrap.min.js"></script>
+
+		<footer>
+			&copy;andrewjlim.com 2017.
+		</footer>
 	</body>
 </html>

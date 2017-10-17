@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>CSS Reference</title>
+	<link rel="stylesheet" href="furniture/css/fontawesome-pro-solid.css">
+	<script defer src="furniture/js/solid.js"></script>
+  	<script defer src="furniture/js/fontawesome.js"></script>
+	<style type="text/css">
+		* {
+			box-sizing: border-box;
+			font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+		}
+
+		.container {
+			margin: 0 auto;
+			width: 80%;
+		}
+
+		.css-reference-table {
+			table-layout: fixed;
+			width: auto;
+			border-collapse: collapse;
+		}
+
+		table, th, td {
+			border: 1px solid #444;
+		}
+
+		th, td {
+			padding: 10px;
+		}
+
+		th {
+			text-align: center	
+		}
+
+		td {
+			vertical-align: text-top;
+		}
+
+		td.css-property .shortcut::after {
+			content: "" ;
+			background-image: url(furniture/img/icon-circle-down-right.png);
+			position: absolute;
+			background-size: cover;
+			height: 15px;
+			width: 15px;
+			margin-top: 1px;
+			margin-left: 5px;
+		}
+
+		td.css-notes .scrollable {
+			display: block;
+			overflow: scroll;
+			width: 400px;
+			height: 100px;
+		}
+
+		td.css-codepen, td.css-reference {
+			text-align: center;
+			height: 50px;
+			padding: 0px;
+			background-color: #CCD0D4;
+			width: 100px;
+		}
+
+		td.css-property-values code {
+			background-color: #333;
+			color: lime;
+			padding: 5px;
+		}
+
+		td.css-property-values code:empty {
+			display: none;
+		}
+
+
+		td.css-reference a.btn {
+			width: 72px;
+			display: inline-block;
+		}
+
+		.css-property-values>ul {
+			padding-left: 0;
+			margin-top: 0;
+		}
+
+		.css-property-values>ul>li {
+			font-style: italic;
+			display: inline;
+		}
+
+		.css-property-values>ul>li:first-child::before {
+			content: '[ ';
+			font-style: normal;
+		}
+
+		.css-property-values>ul>li:last-child::after {
+			content: ' ]';
+			font-style: normal;
+		}
+
+		.css-property-values>ul>li:not(:last-child) {
+			border-right: 2px solid #333;
+			padding-right: 5px;
+		}
+
+
+
+		a.btn {
+			background-color:#3bb3e0;
+			padding:10px;
+			position:relative;
+			font-family: 'Open Sans', sans-serif;
+			font-size:12px;
+			text-decoration:none;
+			color:#fff;
+			border: solid 1px #186f8f;
+			background-image: linear-gradient(bottom, rgb(44,160,202) 0%, rgb(62,184,229) 100%);
+			background-image: -o-linear-gradient(bottom, rgb(44,160,202) 0%, rgb(62,184,229) 100%);
+			background-image: -moz-linear-gradient(bottom, rgb(44,160,202) 0%, rgb(62,184,229) 100%);
+			background-image: -webkit-linear-gradient(bottom, rgb(44,160,202) 0%, rgb(62,184,229) 100%);
+			background-image: -ms-linear-gradient(bottom, rgb(44,160,202) 0%, rgb(62,184,229) 100%);
+			background-image: -webkit-gradient(linear,left bottom,left top,color-stop(0, rgb(44,160,202)),color-stop(1, rgb(62,184,229)));
+			-webkit-box-shadow: inset 0px 1px 0px #7fd2f1, 0px 1px 0px #fff;
+			-moz-box-shadow: inset 0px 1px 0px #7fd2f1, 0px 1px 0px #fff;
+			box-shadow: inset 0px 1px 0px #7fd2f1, 0px 1px 0px #fff;
+			-webkit-border-radius: 5px;
+			-moz-border-radius: 5px;
+			-o-border-radius: 5px;
+			border-radius: 5px;
+		}
+
+		a.btn::before {
+			background-color:#ccd0d5;
+			content:"";
+			display:block;
+			position:absolute;
+			width:100%;
+			height:100%;
+			padding:8px;
+			left:-8px;
+			top:-8px;
+			z-index:-1;
+			-webkit-border-radius: 5px;
+			-moz-border-radius: 5px;
+			-o-border-radius: 5px;
+			border-radius: 5px;
+			-webkit-box-shadow: inset 0px 1px 1px #909193, 0px 1px 0px #fff;
+			-moz-box-shadow: inset 0px 1px 1px #909193, 0px 1px 0px #fff;
+			-o-box-shadow: inset 0px 1px 1px #909193, 0px 1px 0px #fff;
+			box-shadow: inset 0px 1px 1px #909193, 0px 1px 0px #fff;
+		}
+
+		a.btn::active {
+			padding-bottom:9px;
+			padding-left:10px;
+			padding-right:10px;
+			padding-top:11px;
+			top:1px;
+			background-image: linear-gradient(bottom, rgb(62,184,229) 0%, rgb(44,160,202) 100%);
+			background-image: -o-linear-gradient(bottom, rgb(62,184,229) 0%, rgb(44,160,202) 100%);
+			background-image: -moz-linear-gradient(bottom, rgb(62,184,229) 0%, rgb(44,160,202) 100%);
+			background-image: -webkit-linear-gradient(bottom, rgb(62,184,229) 0%, rgb(44,160,202) 100%);
+			background-image: -ms-linear-gradient(bottom, rgb(62,184,229) 0%, rgb(44,160,202) 100%);
+			background-image: -webkit-gradient(linear,left bottom,left top,color-stop(0, rgb(62,184,229)),color-stop(1, rgb(44,160,202)));
+		}
+
+
+
+
+	</style>
+</head>
+<body>
+	<div class="container">
+		<h2>Table</h2>
+		<table>
+			<tr>
+				<th>Property</th>
+				<th>Property Values/Example</th>
+				<th>Code Pen</th>
+				<th>Reference</th>
+				<th>Notes</th>
+			</tr>
+			<tr>
+				<td class="css-property"><span>caption-side</span></td>
+				<td class="css-property-values">
+					<ul>
+						<li>top</li>
+						<li>bottom</li>
+						<li>block-start</li>
+						<li>block-end</li>
+						<li>inline-start</li>
+						<li>inline-end</li>
+
+					</ul>
+					<code></code>
+				</td>
+				<td class="css-codepen"><a href="https://codepen.io/git-andrewjlim/pen/mBjYYg" class="btn" target="_blank">CodePen</a></td>
+				<td class="css-reference"><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/caption-side" class="btn" target="_blank">MDN</a></td>
+				<td class="css-notes">
+					<p>The caption-side CSS property puts the content of a table's &lt;caption&gt; on the specified side. The values are relative to the writing-mode of the table.</p>
+				</td>
+			</tr>
+			<tr>
+				<td class="css-property"><span>empty-cells</span></td>
+				<td class="css-property-values">
+					<ul></ul>
+					<code></code>
+				</td>
+				<td class="css-codepen"><a href="http://" class="btn" target="_blank">CodePen</a></td>
+				<td class="css-reference"><a href="" class="btn" target="_blank">MDN</a></td>
+				<td class="css-notes">
+					<p></p>
+				</td>
+			</tr>
+			<tr>
+				<td class="css-property"><span>table-layout</span></td>
+				<td class="css-property-values">
+					<ul></ul>
+					<code></code>
+				</td>
+				<td class="css-codepen"><a href="http://" class="btn" target="_blank">CodePen</a></td>
+				<td class="css-reference"><a href="http://" class="btn" target="_blank">MDN</a></td>
+				<td class="css-notes">
+					<p></p>
+				</td>
+			</tr>
+		</table>
+	</div>
+</body>
+</html>
+
