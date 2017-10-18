@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<title>AJL | Resources</title>
+		<title>AJL | Laboratory - CSS Transitions</title>
 		<base href="http://www.andrewjlim.com">
 		<link rel="stylesheet" href="furniture/css/main.css">
 		<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
@@ -11,6 +11,18 @@
 		<script src="furniture/js/main.js"></script>
 		<script defer src="furniture/js/solid.js"></script>
   		<script defer src="furniture/js/fontawesome.js"></script>
+  		<style type="text/css">
+			.collapsed {
+				height: 0;
+				overflow: hidden;
+			  	transition-property: height;
+			  	transition-duration: 0.6s;
+			}
+
+			.expand:checked ~ .collapsed {
+				height: 34vh;
+			}
+		</style>
 	</head>
 
 	<body>
@@ -29,20 +41,18 @@
 			</nav>
 		</header>
 		<div class="wrap">
-			<h1>Resources</h1>
-			<h2>Services</h2>
-			<ul>
-				<li><a href="https://caniuse.com/" target="_blank">caniuse.com</a>: Shows browser support for front-end</li>
-				<li><a href=""></a></li>
-				<li><a href=""></a></li>
-				<li><a href=""></a></li>
-				<li><a href=""></a></li>
-			</ul>
+			<h1>Laboratory - CSS Transitions</h1>
+			<p>This tries to open an area only using CSS (Taken from Treehouse - CSS Transitions and Transforms quiz).
+			<div class="container clearfix">
 
-			<h2>References</h2>
-			<ul>
-				<li><a href="http://leaverou.github.io/animatable/" target="_blank">animatable (by Lea Verou)</a>: shows examples of transition properties. Lea Verou also does great talks on <a href="https://www.youtube.com/results?search_query=lea+verou" target="_blank">YouTube</a></li>
-			</ul>
+				<input type="checkbox" class="expand" id="expand"><label for="expand">Expand Height</label>
+
+				<div class="collapsed">
+					<h2>Chocolate cupcake dessert</h2>
+					<p> Tiramisu apple pie sesame snaps lemon drops pie bonbon wafer sweet jujubes. Toffee cupcake wafer. Dessert jelly ice cream sweet roll chocolate bar toffee oat cake cotton candy sweet roll. Cotton candy sweet oat cake croissant macaroon gummies cake gummi bears bear claw. Tootsie roll biscuit marshmallow topping.</p>
+				</div>
+
+			</div>
 		</div>
 
 		<footer>

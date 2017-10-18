@@ -1,0 +1,421 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"over",
+				"overflow-y"
+			],
+			[
+				"overl",
+				"overflow-x"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"background-c",
+				"background-color"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/Users/andrewlim/dev/repos/personal_website/index.html",
+			"settings":
+			{
+				"buffer_size": 2520,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/andrewlim/dev/repos/personal_website/resources.html",
+			"settings":
+			{
+				"buffer_size": 1812,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/andrewlim/dev/repos/personal_website/laboratory/openBoxUsingCSS.html",
+			"settings":
+			{
+				"buffer_size": 2148,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/andrewlim/Library/Application Support/Sublime Text 3/Packages/User/chrome.sublime-build",
+			"settings":
+			{
+				"buffer_size": 53,
+				"encoding": "UTF-8",
+				"line_ending": "Unix",
+				"name": "untitled.sublime-build"
+			}
+		},
+		{
+			"file": "/Users/andrewlim/dev/repos/personal_website/aboutme.html",
+			"settings":
+			{
+				"buffer_size": 1288,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "Package Control: ",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"wrap",
+				"HTML: Wrap Selection With Tag"
+			]
+		],
+		"width": 412.0
+	},
+	"console":
+	{
+		"height": 130.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/andrewlim/dev/repos/personal_website",
+		"/Users/andrewlim/dev/repos/personal_website/laboratory"
+	],
+	"file_history":
+	[
+		"/Users/andrewlim/Web Development/Projects/personal_website/aboutme.html",
+		"/Users/andrewlim/Web Development/Projects/personal_website/favourites.html",
+		"/Users/andrewlim/Web Development/Projects/personal_website/notes.html",
+		"/Users/andrewlim/Web Development/Projects/personal_website/projects.html",
+		"/Users/andrewlim/Web Development/Projects/personal_website/laboratory.html",
+		"/Users/andrewlim/Web Development/Projects/personal_website/resources.html",
+		"/Users/andrewlim/Web Development/Projects/personal_website/furniture/css/main.css",
+		"/Users/andrewlim/Web Development/Projects/personal_website/index.html",
+		"/Users/andrewlim/Web Development/Projects/personal_website/furniture/js/main.js",
+		"/Users/andrewlim/Web Development/Projects/personal_website/reference-css.html",
+		"/Users/andrewlim/Web Development/Training/css list.html",
+		"/Users/andrewlim/Web Development/Projects/personal_website/furniture/img/icon-circle-down-right.png",
+		"/Users/andrewlim/Downloads/CSSButtonsPseudoElements/css/style1.css",
+		"/Users/andrewlim/Web Development/Training/reference-css.html",
+		"/Users/andrewlim/Web Development/Resources/reference.html",
+		"/Users/andrewlim/Web Development/Projects/personal_website/test.html",
+		"/Users/andrewlim/Desktop/test.html",
+		"/Users/andrewlim/Library/Application Support/Sublime Text 3/Packages/User/Emmet.sublime-settings",
+		"/Users/andrewlim/Library/Application Support/Sublime Text 3/Packages/Emmet/Emmet.sublime-settings",
+		"/Users/andrewlim/Web Development/Projects/personal_website/furniture/main.css",
+		"/Users/andrewlim/Downloads/Stage-5/Stage-5-Video-6/final/style.css",
+		"/Users/andrewlim/Web Development/Training/Pluralsight/Sublime3/test.html",
+		"/Users/andrewlim/Web Development/Training/Pluralsight/bootstrap-3/3-bootstrap-3-m2-exercise-files/m2/before/css/site.css",
+		"/Users/andrewlim/Web Development/Training/Pluralsight/bootstrap-3/3-bootstrap-3-m2-exercise-files/m2/before/Index.html",
+		"/Users/andrewlim/Web Development/Training/Pluralsight/hello.js",
+		"/Users/andrewlim/dev/repos/mact-test/README.md",
+		"/Users/andrewlim/Web Development/Training/Beginning AngularJS/Ch4/4-1-raw-sampledata.html",
+		"/Users/andrewlim/Web Development/Training/Beginning AngularJS/Ch3/3-4-displaying-employee-names.html",
+		"/Users/andrewlim/Web Development/Training/Beginning AngularJS/Ch2/2-3-angular-with-input.html",
+		"/Users/andrewlim/Web Development/Training/Beginning AngularJS/Ch2/first-angular-program.html",
+		"/Users/andrewlim/Web Development/Projects/website/index.html",
+		"/Users/andrewlim/railsbridge/test_app/config/routes.rb",
+		"/Users/andrewlim/railsbridge/test_app/Gemfile"
+	],
+	"find":
+	{
+		"height": 39.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Users/andrewlim/dev/repos/personal_website/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2520,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								828,
+								828
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Users/andrewlim/dev/repos/personal_website/resources.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1812,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								1812
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Users/andrewlim/dev/repos/personal_website/laboratory/openBoxUsingCSS.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2148,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1408,
+								1408
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/Users/andrewlim/Library/Application Support/Sublime Text 3/Packages/User/chrome.sublime-build",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 53,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								41,
+								41
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/Users/andrewlim/dev/repos/personal_website/aboutme.html",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 1288,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 90.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/User/chrome.sublime-build",
+	"project": "personal-website.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 211.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
