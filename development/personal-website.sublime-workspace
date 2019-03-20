@@ -27,7 +27,34 @@
 			"file": "/Users/andrewlim/dev/repos/personal_website/index.html",
 			"settings":
 			{
-				"buffer_size": 2520,
+				"buffer_size": 2755,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/andrewlim/dev/repos/personal_website/laboratory.html",
+			"settings":
+			{
+				"buffer_size": 1279,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/andrewlim/dev/repos/personal_website/notes.html",
+			"settings":
+			{
+				"buffer_size": 1178,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/andrewlim/dev/repos/personal_website/projects.html",
+			"settings":
+			{
+				"buffer_size": 1414,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -36,7 +63,16 @@
 			"file": "/Users/andrewlim/dev/repos/personal_website/resources.html",
 			"settings":
 			{
-				"buffer_size": 1812,
+				"buffer_size": 2066,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/andrewlim/dev/repos/personal_website/laboratory/parallaxScreenCSS.html",
+			"settings":
+			{
+				"buffer_size": 1548,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -45,8 +81,80 @@
 			"file": "/Users/andrewlim/dev/repos/personal_website/laboratory/openBoxUsingCSS.html",
 			"settings":
 			{
-				"buffer_size": 2148,
+				"buffer_size": 2178,
 				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/andrewlim/dev/repos/personal_website/favourites.html",
+			"settings":
+			{
+				"buffer_size": 1458,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/andrewlim/dev/repos/personal_website/aboutme.html",
+			"settings":
+			{
+				"buffer_size": 1289,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/andrewlim/Personal/Admin/Trello Social media post template",
+			"settings":
+			{
+				"buffer_size": 14795,
+				"encoding": "UTF-8",
+				"line_ending": "Unix",
+				"name": "{\"id\":\"5a05416d5f6c7b5de10d5a8b\",\"badges\":{\"votes\""
+			}
+		},
+		{
+			"contents": "@font-face{font-family:'Font Awesome 5 Solid';font-style:normal;font-weight:900;src:url(\"../webfonts/fontawesome-pro-solid-900.eotsrc:url(\"../webfonts/fontawesome-pro-solid-900.eot?#iefix\") format(\"embedded-opentype\"),url(\"../webfonts/fontawesome-pro-solid-900.woff2\") format(\"woff2\"),url(\"../webfonts/fontawesome-pro-solid-900.woff\") format(\"woff\"),url(\"../webfonts/fontawesome-pro-solid-900.ttf\") format(\"truetype\"),url(\"../webfonts/fontawesome-pro-solid-900.svg#fontawesome\") format(\"svg\")}.fa,.fas{font-family:'Font Awesome 5 Solid';font-weight:900}\n",
+			"file": "/Users/andrewlim/dev/repos/personal_website/furniture/css/fontawesome-pro-solid.css",
+			"file_size": 557,
+			"file_write_time": 131505503700000000,
+			"settings":
+			{
+				"buffer_size": 554,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "* {\n\tbox-sizing: border-box;\n\tfont-family: 'Raleway', sans-serif;\n\tcolor: #383838;\n}\n\nbody {\n\tmargin: 0;\n\tbackground-color: #ffffff;\n\tbackground-image: url(\"data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23ababab' fill-opacity='0.4' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E\n}\n\n\n\nheader {\n\tbackground: linear-gradient(#FFF 30%, #ABABAB);\n\twidth: 100%;\n\theight: 60px;\n\tposition: relative;\n\tz-index: 10;\n}\n\nheader::after {\n\tcontent: \"\";\n\tbox-shadow: 0 15px 15px -15px inset;\n\theight: 6px;\n\twidth: 100%;\n\tposition: absolute;\n\tbottom: -5px;\n\tleft: 0;\n}\n\nfooter {\n\tbackground: linear-gradient(#FFF 30%, #ABABAB);\n\theight: 20px;\n\tpadding-left: 30px;\n\tfont-size: 0.8em;\n\tpadding-top: 3px;\n\tz-index: 10;\n}\n\nfooter::before {\n\tcontent: \"\";\n\tbox-shadow: 0 -9px 15px -15px inset;\n\theight: 5px;\n\twidth: 100%;\n\tposition: absolute;\n\tbottom: -41px;\n\tleft: 0;\n}\n\n.wrap {\n\tmin-height: calc(100vh - 20px);\n\twidth: 90%;\n\tmargin: 0 auto;\n\tbackground-color: #fafafa;\n\tposition: relative;\n\tpadding: 20px;\n}\n\n.wrap::before {\n\tbox-shadow: -15px 0 15px -15px inset;\n\tcontent: \"\";\n\theight: 100%;\n\tleft: -15px;\n\tposition: absolute;\n\twidth: 15px;\n\ttop: 0;\n}\n\n.wrap::after {\n\tbox-shadow: 15px 0 15px -15px inset;\n\tcontent: \"\";\n\theight: 100%;\n\tright: -15px;\n\tposition: absolute;\n\twidth: 15px;\n\ttop: 0;\n}\n\nh1 {\n\tmargin: 0;\n}\n\n\n#menu-items {\n\twidth: 90%;\n\tmargin: 0 auto;\n\tdisplay: flex;\n\tflex-wrap: wrap;\n\tjustify-content: space-around;\n}\n\n.menu-text {\n\tdisplay: none;\n}\n\n#menu-items article {\n\tflex: 1;\n\tpadding: 10px;\n\tborder: 1px solid;\n\tmargin: 2%;\n\tflex-basis: calc(50% - 40px);\n\tcursor: pointer;\n}\n\n#menu-items article h2 a{\n\ttext-decoration: none;\n}\n\n#menu-items article h2, #menu-items article .icon{\n\ttext-align: center;\n}\n\n#menu-items .icon .fa-user-circle,\n#menu-items .icon .fa-star-exclamation,\n#menu-items .icon .fa-flask,\n#menu-items .icon .fa-pen-alt,\n#menu-items .icon .fa-cog,\n#menu-items .icon .fa-suitcase{\n\theight: 5em;\n\twidth: 5em;\n}\n\nheader .logo {\n\tmargin-left: 20px;\n\tmargin-top: 10px;\n}\n\nheader nav {\n\tposition: absolute;\n\tright: 6%;\n    top: 4px;\n}\n\nheader nav ul li {\n\tdisplay: inline-block;\n}\n\nheader nav a {\n\ttext-decoration: none;\n}\n\nheader nav a.current {\n\tfont-weight: bold;\n\tcolor: #15a5ed;\n\ttext-shadow: 1px 1px 2px #ABABAB;\n\tpointer-events: none;\n\t\n}\n\nheader nav ul li:not(:last-child) {\n    margin-right: 20px;\n}\n\n.logo {\n\theight: 40px;\n\twidth: 40px;\n}\n\n\n\n/*--- MEDIA QUERIES ---*/\n\n@media all and (min-width: 576px) {\n\t#menu-items {\n\t\twidth: 80%;\n\t}\n\n\t.menu-text {\n\t\tdisplay: block;\n\t}\n}\n\n@media all and (min-width: 768px) {\n\tsection#menu-items article {\n\t\tflex-basis: calc(30\t% - 40px);\n\t}\n}\n\n@media all and (min-width: 992px) {\n\t\n}\n\n@media all and (min-width: 1200px) {\n\tsection#menu-items article {\n\t\tmargin: 1%;\n\t}\t\n}",
+			"file": "/Users/andrewlim/dev/repos/personal_website/furniture/css/main.css",
+			"file_size": 2834,
+			"file_write_time": 131527048280000000,
+			"settings":
+			{
+				"buffer_size": 2831,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "/**\n * Font Awesome 5.0.0-rc2\n */\n\n(function () {\n'use strict';\n\nfunction ___$insertStyle(css) {\n  if (!css) {\n    return;\n  }\n  if (typeof window === 'undefined') {\n    return;\n  }\n\n  var style = document.createElement('style');\n\n  style.setAttribute('type', 'text/css');\n  style.innerHTML = css;\n  document.head.appendChild(style);\n\n  return css;\n}\n\nvar noop = function noop() {};\n\nvar _WINDOW = {};\nvar _DOCUMENT = {};\nvar _MUTATION_OBSERVER$1 = null;\nvar _PERFORMANCE = { mark: noop, measure: noop };\n\ntry {\n  if (typeof window !== 'undefined') _WINDOW = window;\n  if (typeof document !== 'undefined') _DOCUMENT = document;\n  if (typeof MutationObserver !== 'undefined') _MUTATION_OBSERVER$1 = MutationObserver;\n  if (typeof performance !== 'undefined') _PERFORMANCE = performance;\n} catch (e) {}\n\nvar _ref = _WINDOW.navigator || {};\nvar _ref$userAgent = _ref.userAgent;\nvar userAgent = _ref$userAgent === undefined ? '' : _ref$userAgent;\n\nvar WINDOW = _WINDOW;\nvar DOCUMENT = _DOCUMENT;\nvar MUTATION_OBSERVER = _MUTATION_OBSERVER$1;\nvar PERFORMANCE = _PERFORMANCE;\nvar IS_BROWSER = !!WINDOW.document;\nvar IS_IE = ~userAgent.indexOf('MSIE') || ~userAgent.indexOf('Trident/');\n\nvar NAMESPACE_IDENTIFIER = '___FONT_AWESOME___';\nvar UNITS_IN_GRID = 16;\nvar DEFAULT_FAMILY_PREFIX = 'fa';\nvar DEFAULT_REPLACEMENT_CLASS = 'svg-inline--fa';\n\nvar PRODUCTION = function () {\n  try {\n    return \"production\" === 'production';\n  } catch (e) {\n    return false;\n  }\n}();\n\nvar oneToTen = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];\nvar oneToTwenty = oneToTen.concat([11, 12, 13, 14, 15, 16, 17, 18, 19, 20]);\n\nvar ATTRIBUTES_WATCHED_FOR_MUTATION = ['data-prefix', 'data-icon', 'data-fa-transform', 'data-fa-compose'];\n\nvar RESERVED_CLASSES = ['xs', 'sm', 'lg', 'fw', 'ul', 'li', 'border', 'pull-left', 'pull-right', 'spin', 'pulse', 'rotate-90', 'rotate-180', 'rotate-270', 'flip-horizontal', 'flip-vertical', 'stack', 'stack-1x', 'stack-2x', 'inverse', 'layers', 'layers-text', 'layers-counter'].concat(oneToTen.map(function (n) {\n  return n + 'x';\n})).concat(oneToTwenty.map(function (n) {\n  return 'w-' + n;\n}));\n\nvar babelHelpers = {};\n\nvar classCallCheck = function (instance, Constructor) {\n  if (!(instance instanceof Constructor)) {\n    throw new TypeError(\"Cannot call a class as a function\n  }\n};\n\nvar createClass = function () {\n  function defineProperties(target, props) {\n    for (var i = 0; i < props.length; i++) {\n      var descriptor = props[i];\n      descriptor.enumerable = descriptor.enumerable || false;\n      descriptor.configurable = true;\n      if (\"value\" in descriptor) descriptor.writable = true;\n      Object.defineProperty(target, descriptor.key, descriptor);\n    }\n  }\n\n  return function (Constructor, protoProps, staticProps) {\n    if (protoProps) defineProperties(Constructor.prototype, protoProps);\n    if (staticProps) defineProperties(Constructor, staticProps);\n    return Constructor;\n  };\n}();\n\nvar _extends = Object.assign || function (target) {\n  for (var i = 1; i < arguments.length; i++) {\n    var source = arguments[i];\n\n    for (var key in source) {\n      if (Object.prototype.hasOwnProperty.call(source, key)) {\n        target[key] = source[key];\n      }\n    }\n  }\n\n  return target;\n};\n\nvar objectWithoutProperties = function (obj, keys) {\n  var target = {};\n\n  for (var i in obj) {\n    if (keys.indexOf(i) >= 0) continue;\n    if (!Object.prototype.hasOwnProperty.call(obj, i)) continue;\n    target[i] = obj[i];\n  }\n\n  return target;\n};\n\nvar toConsumableArray = function (arr) {\n  if (Array.isArray(arr)) {\n    for (var i = 0, arr2 = Array(arr.length); i < arr.length; i++) arr2[i] = arr[i];\n\n    return arr2;\n  } else {\n    return Array.from(arr);\n  }\n};\n\nbabelHelpers;\n\nvar _default = _extends({\n  familyPrefix: DEFAULT_FAMILY_PREFIX,\n  replacementClass: DEFAULT_REPLACEMENT_CLASS,\n  autoReplaceSvg: true,\n  autoAddCss: true,\n  autoA11y: true,\n  observeMutations: true,\n  keepOriginalSource: true,\n  measurePerformance: false,\n  showMissingIcons: true\n}, WINDOW.FontAwesomeConfig || {});\n\nif (!_default.autoReplaceSvg) _default.observeMutations = false;\n\nvar config = _extends({}, _default);\n\nWINDOW.FontAwesomeConfig = config;\n\nfunction update(newConfig) {\n  var validKeys = Object.keys(config);\n\n  Object.keys(newConfig).forEach(function (configKey) {\n    if (~validKeys.indexOf(configKey)) {\n      config[configKey] = newConfig[configKey];\n    }\n  });\n}\n\nvar d = UNITS_IN_GRID;\n\nvar meaninglessTransform = {\n  size: 16,\n  x: 0,\n  y: 0,\n  rotate: 0,\n  flipX: false,\n  flipY: false\n};\n\nfunction isReserved(name) {\n  return ~RESERVED_CLASSES.indexOf(name);\n}\n\nfunction bunker(fn) {\n  try {\n    fn();\n  } catch (e) {\n    \n  }\n}\n\nfunction insertStyle(css) {\n  if (!css) {\n    return;\n  }\n\n  if (typeof DOCUMENT.createElement === 'undefined') {\n    return;\n  }\n\n  var style = DOCUMENT.createElement('style');\n\n  style.setAttribute('type', 'text/css');\n  style.innerHTML = css;\n  DOCUMENT.head.appendChild(style);\n\n  return css;\n}\n\nvar _uniqueId = 0;\n\nfunction nextUniqueId() {\n  _uniqueId++;\n\n  return _uniqueId;\n}\n\nfunction toArray(obj) {\n  var array = [];\n\n  for (var i = (obj || []).length >>> 0; i--;) {\n    array[i] = obj[i];\n  }\n\n  return array;\n}\n\nfunction getIconName(familyPrefix, cls) {\n  var parts = cls.split('-');\n  var prefix = parts[0];\n  var iconName = parts.slice(1).join('-');\n\n  if (prefix === familyPrefix && iconName !== '' && !isReserved(iconName)) {\n    return iconName;\n  } else {\n    return null;\n  }\n}\n\nfunction htmlEscape(str) {\n  return ('' + str).replace(/&/g, '&amp;').replace(/\"/g, '&quot;').replace(/'/g, '&#39;').replace(/</g, '&lt;').replace(/>/g, '&gt;');\n}\n\nfunction joinAttributes(attributes) {\n  return Object.keys(attributes || {}).reduce(function (acc, attributeName) {\n    return acc + (attributeName + '=\"' + htmlEscape(attributes[attributeName]) + '\" ');\n  }, '').trim();\n}\n\nfunction joinStyles(styles) {\n  return Object.keys(styles || {}).reduce(function (acc, styleName) {\n    return acc + (styleName + ': ' + styles[styleName] + ';');\n  }, '');\n}\n\nfunction transformIsMeaningful(transform) {\n  return transform.size !== meaninglessTransform.size || transform.x !== meaninglessTransform.x || transform.y !== meaninglessTransform.y || transform.rotate !== meaninglessTransform.rotate || transform.flipX || transform.flipY;\n}\n\nfunction transformForSvg(_ref) {\n  var transform = _ref.transform,\n      containerWidth = _ref.containerWidth,\n      iconWidth = _ref.iconWidth;\n\n  var outer = {\n    transform: 'translate(' + containerWidth / 2 + ' 256)'\n  };\n  var innerTranslate = 'translate(' + transform.x * 32 + ', ' + transform.y * 32 + ') ';\n  var innerScale = 'scale(' + transform.size / 16 * (transform.flipX ? -1 : 1) + ', ' + transform.size / 16 * (transform.flipY ? -1 : 1) + ') ';\n  var innerRotate = 'rotate(' + transform.rotate + ' 0 0)';\n  var inner = {\n    transform: innerTranslate + ' ' + innerScale + ' ' + innerRotate\n  };\n  var path = {\n    transform: 'translate(' + iconWidth / 2 * -1 + ' -256)'\n  };\n  return {\n    outer: outer,\n    inner: inner,\n    path: path\n  };\n}\n\nfunction transformForCss(_ref2) {\n  var transform = _ref2.transform,\n      _ref2$width = _ref2.width,\n      width = _ref2$width === undefined ? UNITS_IN_GRID : _ref2$width,\n      _ref2$height = _ref2.height,\n      height = _ref2$height === undefined ? UNITS_IN_GRID : _ref2$height,\n      _ref2$startCentered = _ref2.startCentered,\n      startCentered = _ref2$startCentered === undefined ? false : _ref2$startCentered;\n\n  var val = '';\n\n  if (startCentered && IS_IE) {\n    val += 'translate(' + (transform.x / d - width / 2) + 'em, ' + (transform.y / d - height / 2) + 'em) ';\n  } else if (startCentered) {\n    val += 'translate(calc(-50% + ' + transform.x / d + 'em), calc(-50% + ' + transform.y / d + 'em)) ';\n  } else {\n    val += 'translate(' + transform.x / d + 'em, ' + transform.y / d + 'em) ';\n  }\n\n  val += 'scale(' + transform.size / d * (transform.flipX ? -1 : 1) + ', ' + transform.size / d * (transform.flipY ? -1 : 1) + ') ';\n  val += 'rotate(' + transform.rotate + 'deg) ';\n\n  return val;\n}\n\nvar ALL_SPACE = {\n  x: 0,\n  y: 0,\n  width: '100%',\n  height: '100%'\n};\n\nvar makeIconComposition = function (_ref) {\n  var children = _ref.children,\n      attributes = _ref.attributes,\n      main = _ref.main,\n      compose = _ref.compose,\n      transform = _ref.transform;\n  var mainWidth = main.width,\n      mainPath = main.icon;\n  var composeWidth = compose.width,\n      composePath = compose.icon;\n\n\n  var trans = transformForSvg({ transform: transform, containerWidth: composeWidth, iconWidth: mainWidth });\n\n  var maskRect = {\n    tag: 'rect',\n    attributes: _extends({}, ALL_SPACE, {\n      fill: 'white'\n    })\n  };\n  var maskInnerGroup = {\n    tag: 'g',\n    attributes: _extends({}, trans.inner),\n    children: [{ tag: 'path', attributes: _extends({}, mainPath.attributes, trans.path, { fill: 'black' }) }]\n  };\n  var maskOuterGroup = {\n    tag: 'g',\n    attributes: _extends({}, trans.outer),\n    children: [maskInnerGroup]\n  };\n  var maskId = 'mask-' + nextUniqueId();\n  var clipId = 'clip-' + nextUniqueId();\n  var mask = {\n    tag: 'mask',\n    attributes: _extends({}, ALL_SPACE, {\n      id: maskId,\n      maskUnits: 'userSpaceOnUse',\n      maskContentUnits: 'userSpaceOnUse'\n    }),\n    children: [maskRect, maskOuterGroup]\n  };\n  var defs = {\n    tag: 'defs',\n    children: [{ tag: 'clipPath', attributes: { id: clipId }, children: [composePath] }, mask]\n  };\n\n  children.push(defs, { tag: 'rect', attributes: _extends({ fill: 'currentColor', 'clip-path': 'url(#' + clipId + ')', mask: 'url(#' + maskId + ')' }, ALL_SPACE) });\n\n  return {\n    children: children,\n    attributes: attributes\n  };\n};\n\nvar makeIconStandard = function (_ref) {\n  var attributes = _ref.attributes,\n      main = _ref.main,\n      transform = _ref.transform,\n      styles = _ref.styles;\n\n  var styleString = joinStyles(styles);\n  var nextChildren = [];\n\n  if (styleString.length > 0) {\n    attributes['style'] = styleString;\n  }\n\n  if (transformIsMeaningful(transform)) {\n    var trans = transformForSvg({ transform: transform, containerWidth: main.width, iconWidth: main.width });\n    nextChildren.push({\n      tag: 'g',\n      attributes: _extends({}, trans.outer),\n      children: [{\n        tag: 'g',\n        attributes: _extends({}, trans.inner),\n        children: [{\n          tag: main.icon.tag,\n          children: main.icon.children,\n          attributes: _extends({}, main.icon.attributes, trans.path)\n        }]\n      }]\n    });\n  } else {\n    nextChildren.push(main.icon);\n  }\n\n  return {\n    children: nextChildren,\n    attributes: attributes\n  };\n};\n\nvar asIcon = function (_ref) {\n  var children = _ref.children,\n      main = _ref.main,\n      compose = _ref.compose,\n      attributes = _ref.attributes,\n      styles = _ref.styles,\n      transform = _ref.transform;\n\n  if (transformIsMeaningful(transform) && main.found && !compose.found) {\n    var width = main.width,\n        height = main.height;\n\n    var offset = {\n      x: width / height / 2,\n      y: 0.5\n    };\n    attributes['style'] = joinStyles(_extends({}, styles, {\n      'transform-origin': offset.x + transform.x / 16 + 'em ' + (offset.y + transform.y / 16) + 'em'\n    }));\n  }\n\n  return [{\n    tag: 'svg',\n    attributes: attributes,\n    children: children\n  }];\n};\n\nvar asSymbol = function (_ref) {\n  var prefix = _ref.prefix,\n      iconName = _ref.iconName,\n      children = _ref.children,\n      attributes = _ref.attributes;\n\n  return [{\n    tag: 'svg',\n    attributes: {\n      style: 'display: none;'\n    },\n    children: [{\n      tag: 'symbol',\n      attributes: _extends({}, attributes, { id: prefix + '-' + config.familyPrefix + '-' + iconName }),\n      children: children\n    }]\n  }];\n};\n\nfunction makeInlineSvgAbstract(params) {\n  var _params$icons = params.icons,\n      main = _params$icons.main,\n      compose = _params$icons.compose,\n      prefix = params.prefix,\n      iconName = params.iconName,\n      transform = params.transform,\n      title = params.title,\n      extra = params.extra;\n\n  var _ref = compose.found ? compose : main,\n      width = _ref.width,\n      height = _ref.height;\n\n  var widthClass = 'fa-w-' + Math.ceil(width / height * 16);\n  var attrClass = [config.replacementClass, iconName ? config.familyPrefix + '-' + iconName : '', widthClass].concat(extra.classes).join(' ');\n\n  var content = {\n    children: [],\n    attributes: _extends({}, extra.attributes, {\n      'data-prefix': prefix,\n      'data-icon': iconName,\n      'class': attrClass,\n      'role': 'img',\n      'xmlns': 'http://www.w3.org/2000/svg',\n      'viewBox': '0 0 ' + width + ' ' + height\n    })\n  };\n\n  if (title) content.children.push({ tag: 'title', attributes: { id: content.attributes['aria-labelledby'] || 'title-' + nextUniqueId() }, children: [title] });\n\n  var args = _extends({}, content, {\n    prefix: prefix,\n    iconName: iconName,\n    main: main,\n    compose: compose,\n    transform: transform,\n    styles: extra.styles\n  });\n\n  var _ref2 = compose.found && main.found ? makeIconComposition(args) : makeIconStandard(args),\n      children = _ref2.children,\n      attributes = _ref2.attributes;\n\n  args.children = children;\n  args.attributes = attributes;\n\n  if (content.attributes.hasOwnProperty('data-fa-symbol')) {\n    return asSymbol(args);\n  } else {\n    return asIcon(args);\n  }\n}\n\nfunction makeLayersTextAbstract(params) {\n  var content = params.content,\n      width = params.width,\n      height = params.height,\n      transform = params.transform,\n      title = params.title,\n      extra = params.extra;\n\n\n  var attributes = _extends({}, extra.attributes, title ? { 'title': title } : {}, {\n    'class': extra.classes.join(' ')\n  });\n\n  var styles = _extends({}, extra.styles);\n\n  if (transformIsMeaningful(transform)) {\n    styles['transform'] = transformForCss({ transform: transform, startCentered: true, width: width, height: height });\n    styles['-webkit-transform'] = styles['transform'];\n  }\n\n  var styleString = joinStyles(styles);\n\n  if (styleString.length > 0) {\n    attributes['style'] = styleString;\n  }\n\n  var val = [];\n\n  val.push({\n    tag: 'span',\n    attributes: attributes,\n    children: [content]\n  });\n\n  if (title) {\n    val.push({ tag: 'span', attributes: { class: 'sr-only' }, children: [title] });\n  }\n\n  return val;\n}\n\nvar w = WINDOW || {};\n\nif (!w[NAMESPACE_IDENTIFIER]) w[NAMESPACE_IDENTIFIER] = {};\nif (!w[NAMESPACE_IDENTIFIER].packs) w[NAMESPACE_IDENTIFIER].packs = {};\nif (!w[NAMESPACE_IDENTIFIER].hooks) w[NAMESPACE_IDENTIFIER].hooks = {};\nif (!w[NAMESPACE_IDENTIFIER].shims) w[NAMESPACE_IDENTIFIER].shims = [];\n\nvar namespace = w[NAMESPACE_IDENTIFIER];\n\nvar noop$1 = function noop() {};\nvar p = config.measurePerformance && PERFORMANCE && PERFORMANCE.mark && PERFORMANCE.measure ? PERFORMANCE : { mark: noop$1, measure: noop$1 };\nvar preamble = 'FA \"5.0.0-rc2\"';\n\nvar begin = function begin(name) {\n  p.mark(preamble + ' ' + name + ' begins');\n  return function () {\n    return end(name);\n  };\n};\n\nvar end = function end(name) {\n  p.mark(preamble + ' ' + name + ' ends');\n  p.measure(preamble + ' ' + name, preamble + ' ' + name + ' begins', preamble + ' ' + name + ' ends');\n};\n\nvar perf = { begin: begin, end: end };\n\nfunction toHtml(abstractNodes) {\n  var tag = abstractNodes.tag,\n      _abstractNodes$attrib = abstractNodes.attributes,\n      attributes = _abstractNodes$attrib === undefined ? {} : _abstractNodes$attrib,\n      _abstractNodes$childr = abstractNodes.children,\n      children = _abstractNodes$childr === undefined ? [] : _abstractNodes$childr;\n\n\n  if (typeof abstractNodes === 'string') {\n    return htmlEscape(abstractNodes);\n  } else {\n    return '<' + tag + ' ' + joinAttributes(attributes) + '>' + children.map(toHtml).join('') + '</' + tag + '>';\n  }\n}\n\nfunction isReplaced(node) {\n  var nodeClass = node.getAttribute ? node.getAttribute('class') : null;\n\n  if (nodeClass) {\n    return ~nodeClass.toString().indexOf(config.replacementClass) || ~nodeClass.toString().indexOf('fa-layers-text');\n  } else {\n    return false;\n  }\n}\n\nfunction getMutator() {\n  if (config.autoReplaceSvg === true) {\n    return mutators.replace;\n  }\n\n  var mutator = mutators[config.autoReplaceSvg];\n\n  return mutator || mutators.replace;\n}\n\nvar mutators = {\n  replace: function replace(mutation) {\n    var node = mutation[0];\n    var abstract = mutation[1];\n    var newOuterHTML = abstract.map(function (a) {\n      return toHtml(a);\n    }).join('\\n');\n    if (node.parentNode) node.outerHTML = newOuterHTML + (config.keepOriginalSource && node.tagName.toLowerCase() !== 'svg' ? '<!-- ' + node.outerHTML + ' -->' : '');\n  },\n  nest: function nest(mutation) {\n    var node = mutation[0];\n    var abstract = mutation[1];\n    var newInnerHTML = abstract.map(function (a) {\n      return toHtml(a);\n    }).join('\\n');\n    node.innerHTML = newInnerHTML;\n  }\n};\n\nfunction perform(mutations, callback) {\n  if (!WINDOW.requestAnimationFrame) return;\n\n  WINDOW.requestAnimationFrame(function () {\n    var mutator = getMutator();\n    var end = perf.begin('mutate');\n\n    mutations.map(mutator);\n\n    if (typeof callback === 'function') {\n      callback();\n    }\n\n    end();\n  });\n}\n\nfunction observe(options) {\n  if (!MUTATION_OBSERVER) return;\n\n  var treeCallback = options.treeCallback,\n      nodeCallback = options.nodeCallback;\n\n  var mo = new MUTATION_OBSERVER(function (objects) {\n    toArray(objects).forEach(function (mutationRecord) {\n      if (mutationRecord.type === 'childList' && mutationRecord.addedNodes.length > 0 && !isReplaced(mutationRecord.addedNodes[0])) {\n        treeCallback(mutationRecord.target);\n      }\n\n      if (mutationRecord.type === 'attributes' && isReplaced(mutationRecord.target) && ~ATTRIBUTES_WATCHED_FOR_MUTATION.indexOf(mutationRecord.attributeName)) {\n        nodeCallback(mutationRecord.target);\n      }\n    });\n  });\n\n  if (!DOCUMENT.getElementsByTagName) return;\n\n  mo.observe(DOCUMENT.getElementsByTagName('body')[0], {\n    childList: true, attributes: true, characterData: true, subtree: true\n  });\n}\n\nvar styleParser = function (node) {\n  var style = node.getAttribute('style');\n\n  var val = [];\n\n  if (style) {\n    val = style.split(';').reduce(function (acc, style) {\n      var styles = style.split(':');\n      var prop = styles[0];\n      var value = styles.slice(1);\n\n      if (prop && value.length > 0) {\n        acc[prop] = value.join(':').trim();\n      }\n\n      return acc;\n    }, {});\n  }\n\n  return val;\n};\n\n'use strict';\n\n/**\n * Internal helper to bind a function known to have 4 arguments\n * to a given context.\n */\nvar bindInternal4 = function bindInternal4 (func, thisContext) {\n  return function (a, b, c, d) {\n    return func.call(thisContext, a, b, c, d);\n  };\n};\n\n'use strict';\n\n\n\n/**\n * # Reduce\n *\n * A fast object `.reduce()` implementation.\n *\n * @param  {Object}   subject      The object to reduce over.\n * @param  {Function} fn           The reducer function.\n * @param  {mixed}    initialValue The initial value for the reducer, defaults to subject[0].\n * @param  {Object}   thisContext  The context for the reducer.\n * @return {mixed}                 The final result.\n */\nvar reduce = function fastReduceObject (subject, fn, initialValue, thisContext) {\n  var keys = Object.keys(subject),\n      length = keys.length,\n      iterator = thisContext !== undefined ? bindInternal4(fn, thisContext) : fn,\n      i, key, result;\n\n  if (initialValue === undefined) {\n    i = 1;\n    result = subject[keys[0]];\n  }\n  else {\n    i = 0;\n    result = initialValue;\n  }\n\n  for (; i < length; i++) {\n    key = keys[i];\n    result = iterator(result, subject[key], key, subject);\n  }\n\n  return result;\n};\n\nvar packs$2 = namespace.packs;\nvar shims = namespace.shims;\n\n\nvar _byUnicode = {};\nvar _byLigature = {};\nvar _byOldName = {};\n\nvar build = function build() {\n  var lookup = function lookup(reducer) {\n    return reduce(packs$2, function (o, pack, prefix) {\n      o[prefix] = reduce(pack, reducer, {});\n      return o;\n    }, {});\n  };\n\n  _byUnicode = lookup(function (acc, icon, iconName) {\n    acc[icon[3]] = iconName;\n\n    return acc;\n  });\n\n  _byLigature = lookup(function (acc, icon, iconName) {\n    var ligatures = icon[2];\n\n    acc[iconName] = iconName;\n\n    ligatures.forEach(function (ligature) {\n      acc[ligature] = iconName;\n    });\n\n    return acc;\n  });\n\n  var hasRegular = 'far' in packs$2;\n\n  _byOldName = reduce(shims, function (acc, shim) {\n    var oldName = shim[0];\n    var prefix = shim[1];\n    var iconName = shim[2];\n\n    if (prefix === 'far' && !hasRegular) {\n      prefix = 'fas';\n    }\n\n    acc[oldName] = { prefix: prefix, iconName: iconName };\n\n    return acc;\n  }, {});\n};\n\nbuild();\n\nfunction byUnicode(prefix, unicode) {\n  return _byUnicode[prefix][unicode];\n}\n\nfunction byLigature(prefix, ligature) {\n  return _byLigature[prefix][ligature];\n}\n\nfunction byOldName(name) {\n  return _byOldName[name] || { prefix: null, iconName: null };\n}\n\nfunction toHex(unicode) {\n  var result = '';\n\n  for (var i = 0; i < unicode.length; i++) {\n    var hex = unicode.charCodeAt(i).toString(16);\n    result += ('000' + hex).slice(-4);\n  }\n\n  return result;\n}\n\nvar packs$3 = namespace.packs;\n\n\nvar emptyCanonicalIcon = function emptyCanonicalIcon() {\n  return { prefix: null, iconName: null, rest: [] };\n};\n\nfunction getCanonicalIcon(values) {\n  return values.reduce(function (acc, cls) {\n    var iconName = getIconName(config.familyPrefix, cls);\n\n    if (packs$3[cls]) {\n      acc.prefix = cls;\n    } else if (iconName) {\n      var shim = acc.prefix === 'fa' ? byOldName(iconName) : {};\n\n      acc.iconName = shim.iconName || iconName;\n      acc.prefix = shim.prefix || acc.prefix;\n    } else if (cls !== config.replacementClass && cls.indexOf('fa-w-') !== 0) {\n      acc.rest.push(cls);\n    }\n\n    return acc;\n  }, emptyCanonicalIcon());\n}\n\nfunction iconFromMapping(mapping, prefix, iconName) {\n  if (mapping && mapping[prefix] && mapping[prefix][iconName]) {\n    return {\n      prefix: prefix,\n      iconName: iconName,\n      icon: mapping[prefix][iconName]\n    };\n  }\n}\n\nvar classParser = function (node) {\n  var existingPrefix = node.getAttribute('data-prefix');\n  var existingIconName = node.getAttribute('data-icon');\n\n  var val = getCanonicalIcon(toArray(node.classList));\n\n  if (existingPrefix && existingIconName) {\n    val.prefix = existingPrefix;\n    val.iconName = existingIconName;\n  }\n\n  if (val.prefix && node.innerText !== undefined && node.innerText.length > 1) {\n    val.iconName = byLigature(val.prefix, node.innerText);\n  } else if (val.prefix && node.innerText !== undefined && node.innerText.length === 1) {\n    val.iconName = byUnicode(val.prefix, toHex(node.innerText));\n  }\n\n  return val;\n};\n\nvar parseTransformString = function parseTransformString(transformString) {\n  var transform = {\n    size: 16,\n    x: 0,\n    y: 0,\n    flipX: false,\n    flipY: false,\n    rotate: 0\n  };\n\n  if (!transformString) {\n    return transform;\n  } else {\n    return transformString.toLowerCase().split(' ').reduce(function (acc, n) {\n      var parts = n.toLowerCase().split('-');\n      var first = parts[0];\n      var rest = parts.slice(1).join('-');\n\n      if (first && rest === 'h') {\n        acc.flipX = true;\n        return acc;\n      }\n\n      if (first && rest === 'v') {\n        acc.flipY = true;\n        return acc;\n      }\n\n      rest = parseFloat(rest);\n\n      if (isNaN(rest)) {\n        return acc;\n      }\n\n      switch (first) {\n        case 'grow':\n          acc.size = acc.size + rest;\n          break;\n        case 'shrink':\n          acc.size = acc.size - rest;\n          break;\n        case 'left':\n          acc.x = acc.x - rest;\n          break;\n        case 'right':\n          acc.x = acc.x + rest;\n          break;\n        case 'up':\n          acc.y = acc.y - rest;\n          break;\n        case 'down':\n          acc.y = acc.y + rest;\n          break;\n        case 'rotate':\n          acc.rotate = acc.rotate + rest;\n          break;\n      }\n\n      return acc;\n    }, transform);\n  }\n};\n\nvar transformParser = function (node) {\n  return parseTransformString(node.getAttribute('data-fa-transform'));\n};\n\nvar attributesParser = function (node) {\n  var extraAttributes = toArray(node.attributes).reduce(function (acc, attr) {\n    if (acc.name !== 'class' && acc.name !== 'style') {\n      acc[attr.name] = attr.value;\n    }\n    return acc;\n  }, {});\n\n  var title = node.getAttribute('title');\n\n  if (config.autoA11y) {\n    if (title) {\n      extraAttributes['aria-labelledby'] = config.replacementClass + '-title-' + nextUniqueId();\n    } else {\n      extraAttributes['aria-hidden'] = 'true';\n    }\n  }\n\n  return extraAttributes;\n};\n\nvar composeParser = function (node) {\n  var compose = node.getAttribute('data-fa-compose');\n\n  if (!compose) {\n    return emptyCanonicalIcon();\n  } else {\n    return getCanonicalIcon(compose.split(' ').map(function (i) {\n      return i.trim();\n    }));\n  }\n};\n\nfunction parseMeta(node) {\n  var _classParser = classParser(node),\n      iconName = _classParser.iconName,\n      prefix = _classParser.prefix,\n      extraClasses = _classParser.rest;\n\n  var extraStyles = styleParser(node);\n  var transform = transformParser(node);\n  var extraAttributes = attributesParser(node);\n  var compose = composeParser(node);\n\n  return {\n    iconName: iconName,\n    title: node.getAttribute('title'),\n    prefix: prefix,\n    transform: transform,\n    compose: compose,\n    extra: {\n      classes: extraClasses,\n      styles: extraStyles,\n      attributes: extraAttributes\n    }\n  };\n}\n\nfunction MissingIcon(error) {\n  this.name = 'MissingIcon';\n  this.message = error || 'Icon unavailable';\n  this.stack = new Error().stack;\n}\n\nMissingIcon.prototype = Object.create(Error.prototype);\nMissingIcon.prototype.constructor = MissingIcon;\n\nvar FILL = { fill: 'currentColor' };\nvar ANIMATION_BASE = {\n  attributeType: 'XML',\n  repeatCount: 'indefinite',\n  dur: '2s'\n};\nvar RING = {\n  tag: 'path',\n  attributes: _extends({}, FILL, {\n    d: 'M156.5,447.7l-12.6,29.5c-18.7-9.5-35.9-21.2-51.5-34.9l22.7-22.7C127.6,430.5,141.5,440,156.5,447.7z M40.6,272H8.5 c1.4,21.2,5.4,41.7,11.7,61.1L50,321.2C45.1,305.5,41.8,289,40.6,272z M40.6,240c1.4-18.8,5.2-37,11.1-54.1l-29.5-12.6 C14.7,194.3,10,216.7,8.5,240H40.6z M64.3,156.5c7.8-14.9,17.2-28.8,28.1-41.5L69.7,92.3c-13.7,15.6-25.5,32.8-34.9,51.5 L64.3,156.5z M397,419.6c-13.9,12-29.4,22.3-46.1,30.4l11.9,29.8c20.7-9.9,39.8-22.6,56.9-37.6L397,419.6z M115,92.4 c13.9-12,29.4-22.3,46.1-30.4l-11.9-29.8c-20.7,9.9-39.8,22.6-56.8,37.6L115,92.4z M447.7,355.5c-7.8,14.9-17.2,28.8-28.1,41.5 l22.7,22.7c13.7-15.6,25.5-32.9,34.9-51.5L447.7,355.5z M471.4,272c-1.4,18.8-5.2,37-11.1,54.1l29.5,12.6 c7.5-21.1,12.2-43.5,13.6-66.8H471.4z M321.2,462c-15.7,5-32.2,8.2-49.2,9.4v32.1c21.2-1.4,41.7-5.4,61.1-11.7L321.2,462z M240,471.4c-18.8-1.4-37-5.2-54.1-11.1l-12.6,29.5c21.1,7.5,43.5,12.2,66.8,13.6V471.4z M462,190.8c5,15.7,8.2,32.2,9.4,49.2h32.1 c-1.4-21.2-5.4-41.7-11.7-61.1L462,190.8z M92.4,397c-12-13.9-22.3-29.4-30.4-46.1l-29.8,11.9c9.9,20.7,22.6,39.8,37.6,56.9 L92.4,397z M272,40.6c18.8,1.4,36.9,5.2,54.1,11.1l12.6-29.5C317.7,14.7,295.3,10,272,8.5V40.6z M190.8,50 c15.7-5,32.2-8.2,49.2-9.4V8.5c-21.2,1.4-41.7,5.4-61.1,11.7L190.8,50z M442.3,92.3L419.6,115c12,13.9,22.3,29.4,30.5,46.1 l29.8-11.9C470,128.5,457.3,109.4,442.3,92.3z M397,92.4l22.7-22.7c-15.6-13.7-32.8-25.5-51.5-34.9l-12.6,29.5 C370.4,72.1,384.4,81.5,397,92.4z'\n  })\n};\nvar OPACITY_ANIMATE = _extends({}, ANIMATION_BASE, {\n  attributeName: 'opacity'\n});\nvar DOT = {\n  tag: 'circle',\n  attributes: _extends({}, FILL, {\n    cx: '256',\n    cy: '364',\n    r: '28'\n  }),\n  children: [{ tag: 'animate', attributes: _extends({}, ANIMATION_BASE, { attributeName: 'r', values: '28;14;28;28;14;28;' }) }, { tag: 'animate', attributes: _extends({}, OPACITY_ANIMATE, { values: '1;0;1;1;0;1;' }) }]\n};\nvar QUESTION = {\n  tag: 'path',\n  attributes: _extends({}, FILL, {\n    opacity: '1',\n    d: 'M263.7,312h-16c-6.6,0-12-5.4-12-12c0-71,77.4-63.9,77.4-107.8c0-20-17.8-40.2-57.4-40.2c-29.1,0-44.3,9.6-59.2,28.7 c-3.9,5-11.1,6-16.2,2.4l-13.1-9.2c-5.6-3.9-6.9-11.8-2.6-17.2c21.2-27.2,46.4-44.7,91.2-44.7c52.3,0,97.4,29.8,97.4,80.2 c0,67.6-77.4,63.5-77.4,107.8C275.7,306.6,270.3,312,263.7,312z'\n  }),\n  children: [{ tag: 'animate', attributes: _extends({}, OPACITY_ANIMATE, { values: '1;0;0;0;0;1;' }) }]\n};\nvar EXCLAMATION = {\n  tag: 'path',\n  attributes: _extends({}, FILL, {\n    opacity: '0',\n    d: 'M232.5,134.5l7,168c0.3,6.4,5.6,11.5,12,11.5h9c6.4,0,11.7-5.1,12-11.5l7-168c0.3-6.8-5.2-12.5-12-12.5h-23 C237.7,122,232.2,127.7,232.5,134.5z'\n  }),\n  children: [{ tag: 'animate', attributes: _extends({}, OPACITY_ANIMATE, { values: '0;0;1;1;0;0;' }) }]\n};\n\nvar missing = { tag: 'g', children: [RING, DOT, QUESTION, EXCLAMATION] };\n\nvar packs = namespace.packs;\n\nvar LAYERS_TEXT_CLASSNAME = 'fa-layers-text';\n\nfunction findIcon(iconName, prefix) {\n  var val = {\n    found: false,\n    width: 512,\n    height: 512,\n    icon: missing\n  };\n\n  if (iconName && prefix && packs[prefix] && packs[prefix][iconName]) {\n    var icon = packs[prefix][iconName];\n    var width = icon[0];\n    var height = icon[1];\n    var vectorData = icon.slice(4);\n\n    val = {\n      found: true,\n      width: width,\n      height: height,\n      icon: { tag: 'path', attributes: { fill: 'currentColor', d: vectorData[0] } }\n    };\n  } else if (iconName && prefix && !config.showMissingIcons) {\n    throw new MissingIcon('Icon is missing for prefix ' + prefix + ' with icon name ' + iconName);\n  }\n\n  return val;\n}\n\nfunction generateSvgReplacementMutation(node, nodeMeta) {\n  var iconName = nodeMeta.iconName,\n      title = nodeMeta.title,\n      prefix = nodeMeta.prefix,\n      transform = nodeMeta.transform,\n      compose = nodeMeta.compose,\n      extra = nodeMeta.extra;\n\n\n  return [node, makeInlineSvgAbstract({\n    icons: {\n      main: findIcon(iconName, prefix),\n      compose: findIcon(compose.iconName, compose.prefix)\n    },\n    prefix: prefix,\n    iconName: iconName,\n    transform: transform,\n    compose: compose,\n    title: title,\n    extra: extra\n  })];\n}\n\nfunction generateLayersText(node, nodeMeta) {\n  var title = nodeMeta.title,\n      transform = nodeMeta.transform,\n      extra = nodeMeta.extra;\n\n\n  var width = null;\n  var height = null;\n\n  if (IS_IE) {\n    var computedFontSize = parseInt(getComputedStyle(node).fontSize, 10);\n    var boundingClientRect = node.getBoundingClientRect();\n    width = boundingClientRect.width / computedFontSize;\n    height = boundingClientRect.height / computedFontSize;\n  }\n\n  if (config.autoA11y && !title) {\n    extra.attributes['aria-hidden'] = 'true';\n  }\n\n  return [node, makeLayersTextAbstract({\n    content: node.innerHTML,\n    width: width,\n    height: height,\n    transform: transform,\n    title: title,\n    extra: extra\n  })];\n}\n\nfunction generateMutation(node) {\n  var nodeMeta = parseMeta(node);\n\n  if (~nodeMeta.extra.classes.indexOf(LAYERS_TEXT_CLASSNAME)) {\n    return generateLayersText(node, nodeMeta);\n  } else {\n    return generateSvgReplacementMutation(node, nodeMeta);\n  }\n}\n\nfunction onTree(root) {\n  var callback = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : null;\n\n  var prefixes = Object.keys(packs);\n  var prefixesDomQuery = ['.' + LAYERS_TEXT_CLASSNAME].concat(prefixes.map(function (p) {\n    return '.' + p;\n  })).join(', ');\n\n  if (prefixesDomQuery.length === 0) {\n    return;\n  }\n\n  var end = perf.begin('onTree');\n\n  var mutations = toArray(root.querySelectorAll(prefixesDomQuery)).reduce(function (acc, node) {\n    try {\n      var mutation = generateMutation(node);\n\n      if (mutation) {\n        acc.push(mutation);\n      }\n    } catch (e) {\n      if (!PRODUCTION) {\n        if (e instanceof MissingIcon) {\n          console.error(e);\n        }\n      }\n    }\n\n    return acc;\n  }, []);\n\n  end();\n\n  perform(mutations, callback);\n}\n\nfunction onNode(node) {\n  var callback = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : null;\n\n  var mutation = generateMutation(node);\n\n  if (mutation) {\n    perform([mutation], callback);\n  }\n}\n\nvar functions = [];\nvar listener = function listener() {\n  DOCUMENT.removeEventListener('DOMContentLoaded', listener);\n  loaded = 1;\n  functions.map(function (fn) {\n    return fn();\n  });\n};\n\nvar loaded = (DOCUMENT.documentElement.doScroll ? /^loaded|^c/ : /^loaded|^i|^c/).test(DOCUMENT.readyState);\n\nif (!loaded) DOCUMENT.addEventListener('DOMContentLoaded', listener);\n\nvar domready = function (fn) {\n  if (!DOCUMENT) return;\n  loaded ? setTimeout(fn, 0) : functions.push(fn);\n};\n\nvar baseStyles = ___$insertStyle(\".svg-inline--fa,svg:not(:root).svg-inline--fa{overflow:visible}.fa-fw,.fa-layers,.fa-li{text-align:center}.fa-layers,.fa-stack,.svg-inline--fa{display:inline-block}.svg-inline--fa{font-size:inherit;height:1em;vertical-align:-12.5%}.svg-inline--fa.fa-lg{vertical-align:-25%}.svg-inline--fa.fa-w-1{width:.0625em}.svg-inline--fa.fa-w-2{width:.125em}.svg-inline--fa.fa-w-3{width:.1875em}.svg-inline--fa.fa-w-4{width:.25em}.svg-inline--fa.fa-w-5{width:.3125em}.svg-inline--fa.fa-w-6{width:.375em}.svg-inline--fa.fa-w-7{width:.4375em}.svg-inline--fa.fa-w-8{width:.5em}.svg-inline--fa.fa-w-9{width:.5625em}.svg-inline--fa.fa-w-10{width:.625em}.svg-inline--fa.fa-w-11{width:.6875em}.svg-inline--fa.fa-w-12{width:.75em}.svg-inline--fa.fa-w-13{width:.8125em}.svg-inline--fa.fa-w-14{width:.875em}.svg-inline--fa.fa-w-15{width:.9375em}.svg-inline--fa.fa-w-16{width:1em}.svg-inline--fa.fa-w-17{width:1.0625em}.svg-inline--fa.fa-w-18{width:1.125em}.svg-inline--fa.fa-w-19{width:1.1875em}.svg-inline--fa.fa-w-20{width:1.25em}.svg-inline--fa.fa-pull-left{margin-right:.3em;width:auto}.svg-inline--fa.fa-pull-right{margin-left:.3em;width:auto}.svg-inline--fa.fa-border{height:1.5em}.svg-inline--fa.fa-li{top:auto;width:1.875em}.svg-inline--fa.fa-fw{width:1.25em}.fa-layers svg.svg-inline--fa{bottom:0;left:0;margin:auto;position:absolute;right:0;top:0;-webkit-transform-origin:center center;transform-origin:center center}.fa-layers{height:1em;position:relative;vertical-align:-12.5%;width:1em}.fa-layers-counter,.fa-layers-text{display:inline-block;position:absolute;text-align:center}.fa-layers-text{left:50%;top:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%);-webkit-transform-origin:center center;transform-origin:center center}.fa-layers-counter{background-color:#ff253a;border-radius:1em;color:#fff;height:1.5em;line-height:1;max-width:5em;min-width:1.5em;overflow:hidden;padding:.25em;right:0;text-overflow:ellipsis;top:0;-webkit-transform:scale(.25);transform:scale(.25);-webkit-transform-origin:top right;transform-origin:top right}.fa-layers-bottom-right{bottom:0;right:0;top:auto;-webkit-transform:scale(.25);transform:scale(.25);-webkit-transform-origin:bottom right;transform-origin:bottom right}.fa-layers-bottom-left{bottom:0;left:0;right:auto;top:auto;-webkit-transform:scale(.25);transform:scale(.25);-webkit-transform-origin:bottom left;transform-origin:bottom left}.fa-layers-top-right{right:0;top:0;-webkit-transform:scale(.25);transform:scale(.25);-webkit-transform-origin:top right;transform-origin:top right}.fa-layers-top-left{left:0;right:auto;top:0;-webkit-transform:scale(.25);transform:scale(.25);-webkit-transform-origin:top left;transform-origin:top left}.fa-lg{font-size:1.33333em;line-height:.75em;vertical-align:-15%}.fa-xs{font-size:.75em}.fa-sm{font-size:.875em}.fa-1x{font-size:1em}.fa-2x{font-size:2em}.fa-3x{font-size:3em}.fa-4x{font-size:4em}.fa-5x{font-size:5em}.fa-6x{font-size:6em}.fa-7x{font-size:7em}.fa-8x{font-size:8em}.fa-9x{font-size:9em}.fa-10x{font-size:10em}.fa-fw{width:1.25em}.fa-ul{list-style-type:none;margin-left:1.875em;padding-left:0}.fa-ul>li{position:relative}.fa-li{left:-1.875em;position:absolute;top:.14286em;width:1.875em}.fa-li.fa-lg{left:-1.625em}.fa-border{border:.08em solid #eee;border-radius:.1em;padding:.2em .25em .15em}.fa-pull-left{float:left}.fa-pull-right{float:right}.fa.fa-pull-left,.fab.fa-pull-left,.fal.fa-pull-left,.far.fa-pull-left,.fas.fa-pull-left{margin-right:.3em}.fa.fa-pull-right,.fab.fa-pull-right,.fal.fa-pull-right,.far.fa-pull-right,.fas.fa-pull-right{margin-left:.3em}.fa-spin{-webkit-animation:fa-spin 2s infinite linear;animation:fa-spin 2s infinite linear}.fa-pulse{-webkit-animation:fa-spin 1s infinite steps(8);animation:fa-spin 1s infinite steps(8)}@-webkit-keyframes fa-spin{0%{-webkit-transform:rotate(0);transform:rotate(0)}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}@keyframes fa-spin{0%{-webkit-transform:rotate(0);transform:rotate(0)}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}.fa-rotate-90{-ms-filter:\\\"progid:DXImageTransform.Microsoft.BasicImage(rotation=1)\\\";-webkit-transform:rotate(90deg);transform:rotate(90deg)}.fa-rotate-180{-ms-filter:\\\"progid:DXImageTransform.Microsoft.BasicImage(rotation=2)\\\";-webkit-transform:rotate(180deg);transform:rotate(180deg)}.fa-rotate-270{-ms-filter:\\\"progid:DXImageTransform.Microsoft.BasicImage(rotation=3)\\\";-webkit-transform:rotate(270deg);transform:rotate(270deg)}.fa-flip-horizontal{-ms-filter:\\\"progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1)\\\";-webkit-transform:scale(-1,1);transform:scale(-1,1)}.fa-flip-vertical{-ms-filter:\\\"progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)\\\";-webkit-transform:scale(1,-1);transform:scale(1,-1)}.fa-flip-horizontal.fa-flip-vertical{-ms-filter:\\\"progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)\\\";-webkit-transform:scale(-1,-1);transform:scale(-1,-1)}:root .fa-flip-horizontal,:root .fa-flip-vertical,:root .fa-rotate-180,:root .fa-rotate-270,:root .fa-rotate-90{-webkit-filter:none;filter:none}.fa-stack{height:2em;position:relative;width:2em}.fa-stack-1x,.fa-stack-2x{bottom:0;left:0;margin:auto;position:absolute;right:0;top:0}.svg-inline--fa.fa-stack-1x{height:1em;width:1em}.svg-inline--fa.fa-stack-2x{height:2em;width:2em}.fa-inverse{color:#fff}.sr-only{border:0;clip:rect(0,0,0,0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}.sr-only-focusable:active,.sr-only-focusable:focus{clip:auto;height:auto;margin:0;overflow:visible;position:static;width:auto}\n\nvar styles = function () {\n  var dfp = DEFAULT_FAMILY_PREFIX;\n  var drc = DEFAULT_REPLACEMENT_CLASS;\n  var fp = config.familyPrefix;\n  var rc = config.replacementClass;\n  var s = baseStyles;\n\n  if (fp !== dfp || rc !== drc) {\n    var dPatt = new RegExp('\\\\.' + dfp + '\\\\-', 'g');\n    var rPatt = new RegExp('\\\\.' + drc, 'g');\n\n    s = s.replace(dPatt, '.' + fp + '-').replace(rPatt, '.' + rc);\n  }\n\n  return s;\n};\n\nvar Library = function () {\n  function Library() {\n    classCallCheck(this, Library);\n\n    this.definitions = {};\n  }\n\n  createClass(Library, [{\n    key: \"add\",\n    value: function add() {\n      var _this = this;\n\n      for (var _len = arguments.length, definitions = Array(_len), _key = 0; _key < _len; _key++) {\n        definitions[_key] = arguments[_key];\n      }\n\n      var additions = definitions.reduce(this._pullDefinitions, {});\n\n      Object.keys(additions).forEach(function (key) {\n        _this.definitions[key] = _extends({}, _this.definitions[key] || {}, additions[key]);\n      });\n    }\n  }, {\n    key: \"reset\",\n    value: function reset() {\n      this.definitions = {};\n    }\n  }, {\n    key: \"_pullDefinitions\",\n    value: function _pullDefinitions(additions, definition) {\n      var normalized = definition.prefix && definition.iconName && definition.icon ? { 0: definition } : definition;\n\n      Object.keys(normalized).map(function (key) {\n        var _normalized$key = normalized[key],\n            prefix = _normalized$key.prefix,\n            iconName = _normalized$key.iconName,\n            icon = _normalized$key.icon;\n\n\n        if (!additions[prefix]) additions[prefix] = {};\n\n        additions[prefix][iconName] = icon;\n      });\n\n      return additions;\n    }\n  }]);\n  return Library;\n}();\n\nfunction prepIcon(icon) {\n  var width = icon[0];\n  var height = icon[1];\n  var vectorData = icon.slice(4);\n\n  return {\n    found: true,\n    width: width,\n    height: height,\n    icon: { tag: 'path', attributes: { fill: 'currentColor', d: vectorData[0] } }\n  };\n}\n\nvar _stylesInserted = false;\n\nfunction ensureStyles() {\n  if (!config.autoAddCss) {\n    return;\n  }\n\n  if (!_stylesInserted) {\n    insertStyle(styles());\n  }\n\n  _stylesInserted = true;\n}\n\nfunction apiObject(val, abstractCreator) {\n  Object.defineProperty(val, 'abstract', {\n    get: abstractCreator\n  });\n\n  Object.defineProperty(val, 'html', {\n    get: function get() {\n      return val.abstract.map(function (a) {\n        return toHtml(a);\n      });\n    }\n  });\n\n  Object.defineProperty(val, 'node', {\n    get: function get() {\n      if (!DOCUMENT.createElement) return;\n\n      var container = DOCUMENT.createElement('div');\n      container.innerHTML = val.html;\n      return container.children;\n    }\n  });\n\n  return val;\n}\n\nfunction findIconDefinition(params) {\n  var _params$prefix = params.prefix,\n      prefix = _params$prefix === undefined ? 'fa' : _params$prefix,\n      iconName = params.iconName;\n\n\n  if (!iconName) return;\n\n  return iconFromMapping(library.definitions, prefix, iconName) || iconFromMapping(namespace.packs, prefix, iconName);\n}\n\nvar library = new Library();\n\nvar api = {\n  dom: {\n    i2svg: function i2svg() {\n      var params = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};\n\n      ensureStyles();\n\n      var _params$node = params.node,\n          node = _params$node === undefined ? DOCUMENT : _params$node,\n          _params$callback = params.callback,\n          callback = _params$callback === undefined ? function () {} : _params$callback;\n\n\n      onTree(node, callback);\n    },\n\n    styles: styles,\n\n    insertStyles: function insertStyles() {\n      insertStyle(styles());\n    }\n  },\n\n  library: library,\n\n  parse: {\n    transform: function transform(transformString) {\n      return parseTransformString(transformString);\n    }\n  },\n\n  findIconDefinition: findIconDefinition,\n\n  icon: function icon(iconDefinition) {\n    var params = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};\n    var _params$transform = params.transform,\n        transform = _params$transform === undefined ? meaninglessTransform : _params$transform,\n        _params$compose = params.compose,\n        compose = _params$compose === undefined ? null : _params$compose,\n        _params$title = params.title,\n        title = _params$title === undefined ? null : _params$title,\n        _params$classes = params.classes,\n        classes = _params$classes === undefined ? [] : _params$classes,\n        _params$attributes = params.attributes,\n        attributes = _params$attributes === undefined ? {} : _params$attributes,\n        _params$style = params.style,\n        style = _params$style === undefined ? {} : _params$style;\n\n    var _ref = iconDefinition.icon ? iconDefinition : findIconDefinition(iconDefinition),\n        prefix = _ref.prefix,\n        iconName = _ref.iconName,\n        icon = _ref.icon;\n\n    return apiObject(_extends({ type: 'icon' }, iconDefinition), function () {\n      ensureStyles();\n\n      if (config.autoA11y) {\n        if (title) {\n          attributes['aria-labelledby'] = config.replacementClass + '-title-' + nextUniqueId();\n        } else {\n          attributes['aria-hidden'] = 'true';\n        }\n      }\n\n      return makeInlineSvgAbstract({\n        icons: {\n          main: prepIcon(icon),\n          compose: compose ? prepIcon(compose.icon) : { found: false, width: null, height: null, icon: {} }\n        },\n        prefix: prefix,\n        iconName: iconName,\n        transform: _extends({}, meaninglessTransform, transform),\n        title: title,\n        extra: {\n          attributes: attributes,\n          style: style,\n          classes: classes\n        }\n      });\n    });\n  },\n\n  text: function text(content) {\n    var params = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};\n    var _params$transform2 = params.transform,\n        transform = _params$transform2 === undefined ? meaninglessTransform : _params$transform2,\n        _params$title2 = params.title,\n        title = _params$title2 === undefined ? null : _params$title2,\n        _params$classes2 = params.classes,\n        classes = _params$classes2 === undefined ? [] : _params$classes2,\n        _params$attributes2 = params.attributes,\n        attributes = _params$attributes2 === undefined ? {} : _params$attributes2,\n        _params$style2 = params.style,\n        style = _params$style2 === undefined ? {} : _params$style2;\n\n\n    return apiObject({ type: 'text', content: content }, function () {\n      ensureStyles();\n\n      return makeLayersTextAbstract({\n        content: content,\n        transform: _extends({}, meaninglessTransform, transform),\n        title: title,\n        extra: {\n          attributes: attributes,\n          style: style,\n          classes: [config.familyPrefix + '-layers-text'].concat(toConsumableArray(classes))\n        }\n      });\n    });\n  },\n\n  layer: function layer(assembler) {\n    return apiObject({ type: 'layer' }, function () {\n      ensureStyles();\n\n      var children = [];\n\n      assembler(function (args) {\n        Array.isArray(args) ? children = args.map(function (a) {\n          children = children.concat(a.abstract);\n        }) : children = children.concat(args.abstract);\n      });\n\n      return [{\n        tag: 'span',\n        attributes: { class: config.familyPrefix + '-layers' },\n        children: children\n      }];\n    });\n  }\n};\n\nObject.defineProperty(api, 'config', {\n  get: function get() {\n    var autoReplaceSvg = config.autoReplaceSvg,\n        observeMutations = config.observeMutations,\n        showMissingIcons = config.showMissingIcons,\n        rest = objectWithoutProperties(config, ['autoReplaceSvg', 'observeMutations', 'showMissingIcons']);\n\n    return rest;\n  },\n\n  set: function set(newConfig) {\n    update(newConfig);\n  }\n});\n\nfunction bootstrap() {\n  var autoReplace = function autoReplace() {\n    if (config.autoReplaceSvg) api.dom.i2svg({ node: DOCUMENT });\n  };\n\n  if (IS_BROWSER) {\n    if (!WINDOW.FontAwesome) {\n      WINDOW.FontAwesome = api;\n    }\n\n    domready(function () {\n      if (Object.keys(namespace.packs).length > 0) {\n        autoReplace();\n      }\n\n      if (config.observeMutations && typeof MutationObserver === 'function') {\n        observe({ treeCallback: onTree, nodeCallback: onNode });\n      }\n    });\n  }\n\n  namespace.hooks = _extends({}, namespace.hooks, {\n\n    addPack: function addPack(prefix, icons) {\n      namespace.packs[prefix] = _extends({}, namespace.packs[prefix] || {}, icons);\n\n      build();\n      autoReplace();\n    },\n\n    addShims: function addShims(shims) {\n      var _namespace$shims;\n\n      (_namespace$shims = namespace.shims).push.apply(_namespace$shims, toConsumableArray(shims));\n\n      build();\n      autoReplace();\n    }\n  });\n}\n\nbunker(bootstrap);\n\n}());\n",
+			"file": "/Users/andrewlim/dev/repos/personal_website/furniture/js/fontawesome.js",
+			"file_size": 46836,
+			"file_write_time": 131505503700000000,
+			"settings":
+			{
+				"buffer_size": 46830,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "$(document).ready(function() {\n\t$(\"#menu-items article\").click(function(){\n\t\twindow.location = $(this).find(\"a\").attr(\"href\n\t\treturn false;\n\t}); \n});",
+			"file": "/Users/andrewlim/dev/repos/personal_website/furniture/js/main.js",
+			"file_size": 152,
+			"file_write_time": 131511471440000000,
+			"settings":
+			{
+				"buffer_size": 149,
 				"line_ending": "Unix"
 			}
 		},
@@ -58,14 +166,6 @@
 				"encoding": "UTF-8",
 				"line_ending": "Unix",
 				"name": "untitled.sublime-build"
-			}
-		},
-		{
-			"file": "/Users/andrewlim/dev/repos/personal_website/aboutme.html",
-			"settings":
-			{
-				"buffer_size": 1288,
-				"line_ending": "Unix"
 			}
 		}
 	],
@@ -111,7 +211,12 @@
 	"expanded_folders":
 	[
 		"/Users/andrewlim/dev/repos/personal_website",
-		"/Users/andrewlim/dev/repos/personal_website/laboratory"
+		"/Users/andrewlim/dev/repos/personal_website/laboratory",
+		"/Users/andrewlim/dev/repos/personal_website/laboratory/resources",
+		"/Users/andrewlim/dev/repos/personal_website/laboratory/resources/parallaxCSS",
+		"/Users/andrewlim/dev/repos/personal_website/notes",
+		"/Users/andrewlim/dev/repos/personal_website/projects",
+		"/Users/andrewlim/dev/repos/personal_website/resources"
 	],
 	"file_history":
 	[
@@ -151,13 +256,14 @@
 	],
 	"find":
 	{
-		"height": 39.0
+		"height": 22.0
 	},
 	"find_in_files":
 	{
-		"height": 93.0,
+		"height": 101.0,
 		"where_history":
 		[
+			""
 		]
 	},
 	"find_state":
@@ -165,6 +271,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"\");",
+			"arrWordsList.push(\""
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -172,6 +280,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			""
 		],
 		"reverse": false,
 		"show_context": true,
@@ -182,7 +291,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 9,
 			"sheets":
 			[
 				{
@@ -191,21 +300,311 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2520,
+						"buffer_size": 2755,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								828,
-								828
+								1068,
+								1068
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/HTML/HTML.sublime-syntax",
 							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 11.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Users/andrewlim/dev/repos/personal_website/laboratory.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1279,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								74,
+								74
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Users/andrewlim/dev/repos/personal_website/notes.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1178,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								69,
+								69
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/Users/andrewlim/dev/repos/personal_website/projects.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1414,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								72,
+								72
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/Users/andrewlim/dev/repos/personal_website/resources.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2066,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								73,
+								73
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/Users/andrewlim/dev/repos/personal_website/laboratory/parallaxScreenCSS.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1548,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								92,
+								92
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/Users/andrewlim/dev/repos/personal_website/laboratory/openBoxUsingCSS.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2178,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								860,
+								860
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/Users/andrewlim/dev/repos/personal_website/favourites.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1458,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								74,
+								74
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 13,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "/Users/andrewlim/dev/repos/personal_website/aboutme.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1289,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1208,
+								1208
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "/Users/andrewlim/Personal/Admin/Trello Social media post template",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 14795,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								14795,
+								14795
+							]
+						],
+						"settings":
+						{
+							"auto_name": "{\"id\":\"5a05416d5f6c7b5de10d5a8b\",\"badges\":{\"votes\"",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 596.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "/Users/andrewlim/dev/repos/personal_website/furniture/css/fontawesome-pro-solid.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 554,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -215,12 +614,12 @@
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"file": "/Users/andrewlim/dev/repos/personal_website/resources.html",
+					"buffer": 11,
+					"file": "/Users/andrewlim/dev/repos/personal_website/furniture/css/main.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1812,
+						"buffer_size": 2831,
 						"regions":
 						{
 						},
@@ -228,13 +627,71 @@
 						[
 							[
 								0,
-								1812
+								0
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
 							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "/Users/andrewlim/dev/repos/personal_website/furniture/js/fontawesome.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 46830,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "/Users/andrewlim/dev/repos/personal_website/furniture/js/main.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 149,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -244,36 +701,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "/Users/andrewlim/dev/repos/personal_website/laboratory/openBoxUsingCSS.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2148,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1408,
-								1408
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
+					"buffer": 14,
 					"file": "/Users/andrewlim/Library/Application Support/Sublime Text 3/Packages/User/chrome.sublime-build",
 					"semi_transient": false,
 					"settings":
@@ -297,36 +725,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "/Users/andrewlim/dev/repos/personal_website/aboutme.html",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 1288,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
+					"stack_index": 14,
 					"type": "text"
 				}
 			]
@@ -334,11 +733,11 @@
 	],
 	"incremental_find":
 	{
-		"height": 23.0
+		"height": 21.0
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 33.0
 	},
 	"layout":
 	{
@@ -375,7 +774,7 @@
 	"project": "personal-website.sublime-project",
 	"replace":
 	{
-		"height": 42.0
+		"height": 40.0
 	},
 	"save_all_on_build": true,
 	"select_file":
