@@ -32,10 +32,13 @@ h3 {
 header {
 	width: 100%;
 	height: 195px;
-	background-image: linear-gradient(to bottom right, #85d8dc,  #0b7b85);
+	background: linear-gradient(to bottom right, rgba(133,216,220,0.7),  rgba(11,123,133,0.7)), url("../img/silk.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
 	color: #fff;
 	margin-bottom: 150px;
 }
+
 
 header h1 {
 	text-align: center;
@@ -75,16 +78,16 @@ section h2 {
 	color: #5cb6d2;
 }
 
-.background-header-icon {
+/* .background-header-icon {
 	position: absolute;
-	opacity: 0.5;                /* Opacity (Transparency) */
-    -webkit-filter: blur(16px);    /* Blur */
+	opacity: 0.5;                
+    -webkit-filter: blur(16px);    
     -moz-filter: blur(16px);
 	filter: blur(16px);
 	left: 50%;
 	margin-left: -90px;
 	font-size: 190px;
-}
+} */
 
 .contact-icons {
 	text-align: center;
