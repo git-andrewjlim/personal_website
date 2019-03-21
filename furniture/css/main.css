@@ -37,6 +37,7 @@ header {
 	background-size: cover;
 	color: #fff;
 	margin-bottom: 150px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 
@@ -57,6 +58,7 @@ header h6 {
 	margin: 30px auto 0;
 	border-radius: 50%;
 	z-index: 10;
+	box-shadow: 0 3px 4px rgba(0, 0, 0, 0.5);
 }
 
 main {
