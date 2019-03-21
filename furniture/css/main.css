@@ -1,11 +1,26 @@
 * {
 	box-sizing: border-box;
 	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
 }
 
 body {
 	margin: 0;
 	padding: 0;
+	color: #404040;
+
+}
+
+h1 {
+	font-size: 3em;
+}
+
+h2 {
+	font-size: 2.3em;
+}
+
+h3 {
+	font-size: 1.5em;
 }
 
 #container {
@@ -25,13 +40,12 @@ header {
 header h1 {
 	text-align: center;
 	padding-top: 50px;
-	font-size: 34px;
 	margin: 0;
 }
 
 header h6 {
 	text-align: center;
-	font-size: 12px;
+	font-weight: 100;
 	margin: 0;
 }
 
@@ -39,6 +53,7 @@ header h6 {
 	display: block;
 	margin: 30px auto 0;
 	border-radius: 50%;
+	z-index: 10;
 }
 
 main {
@@ -47,13 +62,28 @@ main {
 
 section {
 	border-top: 3px solid #5cb6d2;
+	width: 100%;
+}
+
+section.about-me {
+	border-top: 0px;
 }
 
 section h2 {
 	margin-top: 0;
 	text-align: center;
 	color: #5cb6d2;
-	font-size: 26px;
+}
+
+.background-header-icon {
+	position: absolute;
+	opacity: 0.5;                /* Opacity (Transparency) */
+    -webkit-filter: blur(16px);    /* Blur */
+    -moz-filter: blur(16px);
+	filter: blur(16px);
+	left: 50%;
+	margin-left: -90px;
+	font-size: 190px;
 }
 
 .contact-icons {
@@ -76,7 +106,88 @@ section h2 {
 	color: #E8920C;
 }
 
-.contact-icons i::before {
-	width: 42px;
-	height: 42px;
+.fa-square, .fa-js-square {
+	color: #45a7af;
+}
+
+.skills-list {
+	list-style-type: none;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-gap: 10px;
+	justify-content: center;
+	text-align:center;
+	padding: 0;
+}
+
+.skills-list span {
+	position: relative;
+}
+
+.skills-list li:first-child {
+	display: block;
+}
+
+.skills-list .icon-text {
+	display: block;
+}
+
+.collapse-icon .fa-cogs, .collapse-icon .fa-code, .collapse-icon .fa-paint-brush {
+	color: white;
+	position: absolute;
+	top: -27px;
+}
+
+.collapse-icon .fa-cogs {
+	left: 4px;
+}
+
+.collapse-icon .fa-code {
+	left: 6px;
+}
+
+.collapse-icon .fa-paint-brush {
+	left: 8px;
+}
+
+article {
+	background-color: #fff;
+	border: 1px solid #C5C5C5;
+	border-radius: 4px;
+	margin-bottom: 20px;
+	padding: 10px 20px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.work-experience article ul {
+	list-style: none;
+}
+
+.work-experience article li {
+	/* font-size: 0.9em; */
+	margin-bottom: 10px;
+}
+
+.work-experience article li::before {
+	content: "\2022";
+	color: #45a7af;
+	font-weight: bold;
+	font-size: 1.5em;
+	display: inline-block; 
+	width: 1em;
+	margin-left: -1.5em;
+}
+
+article h3 {
+	margin: 0;
+	text-align: center;
+}
+
+article .company-logo {
+	display: block;
+	margin: 0 auto;
+}
+
+article .work-date {
+	text-align: center;
 }
