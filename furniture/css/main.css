@@ -26,8 +26,7 @@ h3 {
 
 #container {
 	background-color: #f9fcfd;
-	display: flex;
-	flex-direction: column;
+	display: grid;
 }
 
 header {
@@ -41,15 +40,16 @@ header {
 	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
 }
 
+.header-text {
+	text-align: center;
+}
 
 header h1 {
-	text-align: center;
 	padding-top: 50px;
 	margin: 0;
 }
 
 header h6 {
-	text-align: center;
 	font-weight: 100;
 	margin: 0;
 }
@@ -64,6 +64,14 @@ header h6 {
 
 main {
 	padding: 0 40px;
+	display: grid;
+	grid-template-areas: 
+		"about-me" 
+		"skills" 
+		"work-experience" 
+		"education" 
+		"projects" 
+		"interests";
 }
 
 section {
@@ -73,7 +81,28 @@ section {
 }
 
 section.about-me {
+	grid-area: about-me;
 	border-top: 0px;
+}
+
+section.skills {
+	grid-area: skills;
+}
+
+section.interests {
+	grid-area: interests;
+}
+
+section.work-experience {
+	grid-area: work-experience;
+}
+
+section.education {
+	grid-area: education;
+}
+
+section.projects {
+	grid-area: projects;
 }
 
 section h2 {
@@ -81,17 +110,6 @@ section h2 {
 	text-align: center;
 	color: #5cb6d2;
 }
-
-/* .background-header-icon {
-	position: absolute;
-	opacity: 0.5;                
-    -webkit-filter: blur(16px);    
-    -moz-filter: blur(16px);
-	filter: blur(16px);
-	left: 50%;
-	margin-left: -90px;
-	font-size: 190px;
-} */
 
 .contact-icons {
 	text-align: center;
@@ -160,6 +178,10 @@ section h2 {
 
 .collapse-icon .fa-paint-brush {
 	left: 8px;
+}
+
+.articles {
+	display: block;
 }
 
 article {
@@ -260,4 +282,90 @@ footer {
 
 .projects article h3 {
 	margin-bottom: 10px;
+}
+
+
+
+@media (min-width: 600px) {
+	
+	main {
+		grid-template-columns: 50% 50%;
+		grid-template-areas:
+			"about-me about-me"
+			"skills interests"
+			"work-experience work-experience"
+			"education education"
+			"projects projects";
+	}
+	
+	article {
+		flex-basis: 50%;
+	}
+
+	.articles {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-gap: 20px
+	}
+
+
+	.skills ul{
+		border-right: 1px solid rgba(92, 108, 127,0.7);
+		display: grid;
+		padding: 10px;
+		grid-template-columns: 1fr 1fr;
+	}
+
+	.interests ul {
+		display: grid;
+		padding: 10px;
+		grid-template-columns: 1fr 1fr;
+	}
+
+	.interests ul li {
+		margin-bottom: 20px;
+	}
+
+	header {
+		margin-bottom: 0;
+	}
+
+	.contact-icons {
+		margin-top: 0;
+		position: absolute;
+		right: 10px;
+		top: 135px;
+	}
+
+
+	.contact-icons a{
+		color: #fff;
+	}
+
+	.contact-icons a .fa-5x {
+		font-size: 4em;
+	}
+
+	#my-picture {
+		position: absolute;
+		top: 0;
+		left: 40px;
+		width: 130px;
+	}
+
+	.header-text {
+		position: absolute;
+		display: block;
+		left: 190px;
+	}
+
+	.header-text h1 {
+		font-size: 4em;
+		padding-top: 40px;
+	}
+
+	.header-text h6 {
+		text-align: left;
+	}
+
 }
