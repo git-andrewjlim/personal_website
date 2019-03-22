@@ -21,6 +21,7 @@ h2 {
 
 h3 {
 	font-size: 1.5em;
+	color: #45A7AF;
 }
 
 #container {
@@ -36,7 +37,7 @@ header {
 	background-repeat: no-repeat;
 	background-size: cover;
 	color: #fff;
-	margin-bottom: 150px;
+	margin-bottom: 120px;
 	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
 }
 
@@ -68,6 +69,7 @@ main {
 section {
 	border-top: 3px solid #5cb6d2;
 	width: 100%;
+	margin-top: 45px;
 }
 
 section.about-me {
@@ -94,6 +96,10 @@ section h2 {
 .contact-icons {
 	text-align: center;
 	padding: 0;
+	margin-top: 20px;
+	display: flex;
+    justify-content: space-around;
+    padding: 0 33px;
 }
 .contact-icons li {
 	display: inline-block;
@@ -112,7 +118,7 @@ section h2 {
 }
 
 .fa-square, .fa-js-square {
-	color: #45a7af;
+	color: #5C6C7F;
 }
 
 .skills-list {
@@ -135,6 +141,7 @@ section h2 {
 
 .skills-list .icon-text {
 	display: block;
+	font-weight: bold;
 }
 
 .collapse-icon .fa-cogs, .collapse-icon .fa-code, .collapse-icon .fa-paint-brush {
@@ -183,6 +190,10 @@ article {
 	margin-left: -1.5em;
 }
 
+.work-experience article h3 {
+	color: #404040;
+}
+
 article h3 {
 	margin: 0;
 	text-align: center;
@@ -195,4 +206,58 @@ article .company-logo {
 
 article .work-date {
 	text-align: center;
+}
+
+.interests .skills-list {
+	color: #5C6C7F;
+}
+
+.github-link {
+	display: block;
+	text-align: center;
+	color: #45a7af;
+	text-decoration: none;
+}
+
+.github-link .view-in-github {
+	display: block;
+	color: #404040;
+}
+
+footer {
+	color: #fff;
+	background-color: #45a7af;
+	padding: 0 20px;
+	margin-top: 20px;
+	text-align: right;
+}
+
+.education h3 {
+	color: #45A7AF;
+	font-size: 1.2em;
+	font-weight: 100;
+	text-align: left;
+}
+
+.education article img.left-logo {
+	float: left;
+	margin-right: 10px;
+}
+
+.education article .work-date {
+	text-align: left;
+	font-size: 0.8em;
+}
+.education article p {
+	clear: left;
+}
+
+.education article .company-logo {
+	text-align: left;
+	display: inline-block;
+	margin-bottom: 10px;
+}
+
+.projects article h3 {
+	margin-bottom: 10px;
 }
