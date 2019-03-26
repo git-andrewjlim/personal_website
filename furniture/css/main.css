@@ -409,8 +409,12 @@ footer {
 		grid-template-columns: 1fr 1fr 1fr 1fr;
 	}
 
-	section.skills, section.interests, section.work-experience, section.about-me {
+	section.skills, section.interests, section.about-me {
 		margin-top: 15px;
+	}
+
+	section.work-experience {
+		margin-top: 0px;
 	}
 
 	section {
