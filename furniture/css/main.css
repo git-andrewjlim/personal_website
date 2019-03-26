@@ -38,6 +38,7 @@ header {
 	color: #fff;
 	margin-bottom: 120px;
 	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+	position: relative;
 }
 
 .header-text {
@@ -195,6 +196,7 @@ article {
 
 .work-experience article ul {
 	list-style: none;
+	text-indent: -23px;
 }
 
 .work-experience article li {
@@ -209,7 +211,8 @@ article {
 	font-size: 1.5em;
 	display: inline-block; 
 	width: 1em;
-	margin-left: -1.5em;
+	margin-left: 1em;
+    margin-right: -12px;
 }
 
 .work-experience article h3 {
@@ -300,6 +303,7 @@ footer {
 	
 	article {
 		flex-basis: 50%;
+		margin-bottom:0;
 	}
 
 	.articles {
@@ -369,3 +373,159 @@ footer {
 	}
 
 }
+
+
+@media (min-width: 900px) {
+	body {
+		background-image: url('../img/dotted-background.jpg');
+	}
+
+	
+
+	#container {
+		width: 900px;
+		margin: 0 auto;
+		box-shadow: 2px 0px 20px 5px rgba(0, 0, 0, 0.5);
+		box-shadow: -2px 0px 20px 5px rgba(0, 0, 0, 0.5);
+	}
+
+	main {
+		grid-template-columns: 1fr;
+		grid-template-areas:
+			"about-me"
+			"skills"
+			"interests"
+			"work-experience"
+			"education"
+			"projects";
+		padding: 0;
+	}
+
+	.skills ul{
+		border-right: none;
+	}
+
+	.skills ul, .interests ul {
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+	}
+
+	section.skills, section.interests, section.work-experience, section.about-me {
+		margin-top: 15px;
+	}
+
+	section {
+		border-top: none;
+	}
+
+	section.about-me p {
+		padding: 0 60px;
+	}
+
+	section h2 {
+		background-color: #45a7af;
+		color: #fff;
+		text-align: left;
+		padding-left: 10px;
+		width: 250px;
+		display: inline-block;
+		vertical-align: top;
+		margin-bottom: 0;
+	}
+
+	.heading-triangle {
+		display: inline-block;
+		border-bottom: 19px solid 	#45a7af;
+		border-left: 19px solid #45a7af;
+		border-right: 19px solid rgba(255, 255, 255, 0);
+		border-top: 19px solid rgba(255, 255, 255, 0);
+	}
+
+	.heading-divider {
+		display: block;
+		height: 4px;
+		width: 100%;
+		background-color: #45a7af;
+		margin-top: -5px
+	}
+	
+	.work-experience .articles {
+		padding: 20px 20px 0;
+		grid-template-columns: 1fr;
+	}
+
+	.work-experience article {
+		flex-basis: 100%;
+		display: flex;
+	}
+
+	.work-experience article .asics-article-image {
+		background-image: url('../img/asics-shoes.jpg');
+		background-repeat: no-repeat;
+		width: 400px;
+		height: 267px;
+
+	}
+
+	.article-copy {
+
+		width: 380px;
+		margin: 0 20px;
+		flex-grow: 1;
+	}
+
+	.work-experience article .macquarie-article-image {
+		background-image: url('../img/buildings.jpg');
+		background-repeat: no-repeat;
+		width: 400px;
+		height: 267px;
+	}
+
+	.work-experience article:nth-child(2n) div.article-copy {
+		order: -1;
+	}
+
+	section.education .articles {
+		background-image:url('../img/library-blue-blur.jpg');
+		background-repeat: no-repeat;
+		background-size: 100%;
+	}
+
+	section.education .articles {
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+		grid-gap: 20px;
+		padding: 20px;
+	}
+
+	section.projects .articles {
+		background-image:url('../img/tools-blue-blur.jpg');
+		background-repeat: no-repeat;
+		background-size: 100%;
+	}
+
+	section.projects .articles {
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-gap: 20px;
+		padding: 20px;
+	}
+
+	.education article img {
+		height: 40px;
+	}
+
+	.education article img.left-logo {
+		margin: 0 auto;
+		height: 50px;
+		float: none;
+	}
+
+	.education h3 {
+		text-align: center;
+	}
+
+	.education article .work-date {
+		text-align: center;
+	}
+
+	.education article .company-logo {
+		display: block;
+	}
