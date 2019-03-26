@@ -300,6 +300,10 @@ footer {
 			"education education"
 			"projects projects";
 	}
+
+	.macquarie-article-image+.article-copy .company-logo {
+		width: 200px;
+	}
 	
 	article {
 		flex-basis: 50%;
@@ -380,7 +384,9 @@ footer {
 		background-image: url('../img/dotted-background.jpg');
 	}
 
-	
+	.macquarie-article-image+.article-copy .company-logo {
+		width: initial;
+	}
 
 	#container {
 		width: 900px;
